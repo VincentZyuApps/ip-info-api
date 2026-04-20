@@ -3,7 +3,8 @@ name: API Test
 
 on:
   schedule:
-    - cron: "0 */3 * * *"
+    # 北京时间 0, 3, 6, 9, 12, 15, 18, 21点 (UTC 16, 19, 22, 1, 4, 7, 10, 13)
+    - cron: "0 1,4,7,10,13,16,19,22 * * *"
   workflow_dispatch:
   push:
     branches:
