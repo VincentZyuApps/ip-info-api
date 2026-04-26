@@ -3,9 +3,9 @@
 <!-- API_STATUS_START -->
 ## 📊 API状态监控
 
-> Updated at UTC+0: 2026-04-26 08:12
+> Updated at UTC+0: 2026-04-26 10:36
 
-> 由 GitHub Actions 自动更新于 (UTC+8): 2026-04-26 16:12
+> 由 GitHub Actions 自动更新于 (UTC+8): 2026-04-26 18:36
 
 > 测试IP: 117.30.120.138, 1.1.1.1, 8.8.8.8
 
@@ -14,60 +14,60 @@
 
 | 测试 | API | 状态 | 平均响应 | 成功率 | 详情 |
 |------|-----|------|---------|--------|------|
-| [![ip-api.com](https://img.shields.io/website?url=http%3A%2F%2Fip-api.com%2Fjson%2F117.30.120.138%3Flang%3Dzh-CN&label=ip-api.com)](http://ip-api.com/json/117.30.120.138?lang=zh-CN) | ip-api.com | ✅ | 26.78ms | 3/3 | [📁 查看](output/by_api/ip-api.com/) |
-| [![demo.ip-api.com](https://img.shields.io/website?url=http%3A%2F%2Fdemo.ip-api.com%2Fjson%2F117.30.120.138%3Ffields%3D66842623%26lang%3Dzh-CN&label=demo.ip-api.com)](http://demo.ip-api.com/json/117.30.120.138?fields=66842623&lang=zh-CN) | demo.ip-api.com | ✅ | 26.57ms | 3/3 | [📁 查看](output/by_api/demo.ip-api.com/) |
-| [![pconline](https://img.shields.io/website?url=https%3A%2F%2Fwhois.pconline.com.cn%2FipJson.jsp%3Fip%3D117.30.120.138%26json%3Dtrue&label=pconline)](https://whois.pconline.com.cn/ipJson.jsp?ip=117.30.120.138&json=true) | pconline | ✅ | 922.22ms | 3/3 | [📁 查看](output/by_api/pconline/) |
-| [![ip.sb](https://img.shields.io/website?url=https%3A%2F%2Fapi.ip.sb%2Fgeoip%2F117.30.120.138&label=ip.sb)](https://api.ip.sb/geoip/117.30.120.138) | ip.sb | ✅ | 152.73ms | 3/3 | [📁 查看](output/by_api/ip.sb/) |
-| [![ip2location.io](https://img.shields.io/website?url=https%3A%2F%2Fapi.ip2location.io%2F%3Fip%3D117.30.120.138&label=ip2location.io)](https://api.ip2location.io/?ip=117.30.120.138) | ip2location.io | ✅ | 42.5ms | 3/3 | [📁 查看](output/by_api/ip2location.io/) |
-| [![realip.cc](https://img.shields.io/website?url=https%3A%2F%2Frealip.cc%2F%3Fip%3D117.30.120.138&label=realip.cc)](https://realip.cc/?ip=117.30.120.138) | realip.cc | ✅ | 204.54ms | 3/3 | [📁 查看](output/by_api/realip.cc/) |
-| [![ipapi.co](https://img.shields.io/website?url=https%3A%2F%2Fipapi.co%2F117.30.120.138%2Fjson%2F&label=ipapi.co)](https://ipapi.co/117.30.120.138/json/) | ipapi.co | ✅ | 137.13ms | 3/3 | [📁 查看](output/by_api/ipapi.co/) |
-| [![ipapi.is](https://img.shields.io/website?url=https%3A%2F%2Fapi.ipapi.is%2F%3Fip%3D117.30.120.138&label=ipapi.is)](https://api.ipapi.is/?ip=117.30.120.138) | ipapi.is | ✅ | 66.08ms | 3/3 | [📁 查看](output/by_api/ipapi.is/) |
-| [![db-ip.com](https://img.shields.io/website?url=https%3A%2F%2Fapi.db-ip.com%2Fv2%2Ffree%2F117.30.120.138&label=db-ip.com)](https://api.db-ip.com/v2/free/117.30.120.138) | db-ip.com | ✅ | 112.4ms | 3/3 | [📁 查看](output/by_api/db-ip.com/) |
-| [![freeipapi.com](https://img.shields.io/website?url=https%3A%2F%2Ffreeipapi.com%2Fapi%2Fjson%2F117.30.120.138&label=freeipapi.com)](https://freeipapi.com/api/json/117.30.120.138) | freeipapi.com | ✅ | 369.83ms | 3/3 | [📁 查看](output/by_api/freeipapi.com/) |
-| [![ipwhois.app](https://img.shields.io/website?url=https%3A%2F%2Fipwhois.app%2Fjson%2F117.30.120.138%3Fformat%3Djson&label=ipwhois.app)](https://ipwhois.app/json/117.30.120.138?format=json) | ipwhois.app | ✅ | 75.42ms | 3/3 | [📁 查看](output/by_api/ipwhois.app/) |
-| [![ip.nc.gy](https://img.shields.io/website?url=https%3A%2F%2Fip.nc.gy%2Fjson%3Fip%3D117.30.120.138&label=ip.nc.gy)](https://ip.nc.gy/json?ip=117.30.120.138) | ip.nc.gy | ✅ | 149.41ms | 3/3 | [📁 查看](output/by_api/ip.nc.gy/) |
-| [![geojs.io](https://img.shields.io/website?url=https%3A%2F%2Fget.geojs.io%2Fv1%2Fip%2Fgeo%2F117.30.120.138.json&label=geojs.io)](https://get.geojs.io/v1/ip/geo/117.30.120.138.json) | geojs.io | ✅ | 49.22ms | 3/3 | [📁 查看](output/by_api/geojs.io/) |
-| [![baidu.opendata](https://img.shields.io/website?url=https%3A%2F%2Fopendata.baidu.com%2Fapi.php%3Fco%3D%26resource_id%3D6006%26oe%3Dutf8%26query%3D117.30.120.138&label=baidu.opendata)](https://opendata.baidu.com/api.php?co=&resource_id=6006&oe=utf8&query=117.30.120.138) | baidu.opendata | ✅ | 768.31ms | 3/3 | [📁 查看](output/by_api/baidu.opendata/) |
+| [![ip-api.com](https://img.shields.io/website?url=http%3A%2F%2Fip-api.com%2Fjson%2F117.30.120.138%3Flang%3Dzh-CN&label=ip-api.com)](http://ip-api.com/json/117.30.120.138?lang=zh-CN) | ip-api.com | ✅ | 26.83ms | 3/3 | [📁 查看](output/by_api/ip-api.com/) |
+| [![demo.ip-api.com](https://img.shields.io/website?url=http%3A%2F%2Fdemo.ip-api.com%2Fjson%2F117.30.120.138%3Ffields%3D66842623%26lang%3Dzh-CN&label=demo.ip-api.com)](http://demo.ip-api.com/json/117.30.120.138?fields=66842623&lang=zh-CN) | demo.ip-api.com | ✅ | 35.32ms | 3/3 | [📁 查看](output/by_api/demo.ip-api.com/) |
+| [![pconline](https://img.shields.io/website?url=https%3A%2F%2Fwhois.pconline.com.cn%2FipJson.jsp%3Fip%3D117.30.120.138%26json%3Dtrue&label=pconline)](https://whois.pconline.com.cn/ipJson.jsp?ip=117.30.120.138&json=true) | pconline | ✅ | 677.11ms | 3/3 | [📁 查看](output/by_api/pconline/) |
+| [![ip.sb](https://img.shields.io/website?url=https%3A%2F%2Fapi.ip.sb%2Fgeoip%2F117.30.120.138&label=ip.sb)](https://api.ip.sb/geoip/117.30.120.138) | ip.sb | ✅ | 32.67ms | 3/3 | [📁 查看](output/by_api/ip.sb/) |
+| [![ip2location.io](https://img.shields.io/website?url=https%3A%2F%2Fapi.ip2location.io%2F%3Fip%3D117.30.120.138&label=ip2location.io)](https://api.ip2location.io/?ip=117.30.120.138) | ip2location.io | ✅ | 121.34ms | 3/3 | [📁 查看](output/by_api/ip2location.io/) |
+| [![realip.cc](https://img.shields.io/website?url=https%3A%2F%2Frealip.cc%2F%3Fip%3D117.30.120.138&label=realip.cc)](https://realip.cc/?ip=117.30.120.138) | realip.cc | ✅ | 58.05ms | 3/3 | [📁 查看](output/by_api/realip.cc/) |
+| [![ipapi.co](https://img.shields.io/website?url=https%3A%2F%2Fipapi.co%2F117.30.120.138%2Fjson%2F&label=ipapi.co)](https://ipapi.co/117.30.120.138/json/) | ipapi.co | ✅ | 57.48ms | 3/3 | [📁 查看](output/by_api/ipapi.co/) |
+| [![ipapi.is](https://img.shields.io/website?url=https%3A%2F%2Fapi.ipapi.is%2F%3Fip%3D117.30.120.138&label=ipapi.is)](https://api.ipapi.is/?ip=117.30.120.138) | ipapi.is | ✅ | 169.4ms | 3/3 | [📁 查看](output/by_api/ipapi.is/) |
+| [![db-ip.com](https://img.shields.io/website?url=https%3A%2F%2Fapi.db-ip.com%2Fv2%2Ffree%2F117.30.120.138&label=db-ip.com)](https://api.db-ip.com/v2/free/117.30.120.138) | db-ip.com | ✅ | 173.63ms | 3/3 | [📁 查看](output/by_api/db-ip.com/) |
+| [![freeipapi.com](https://img.shields.io/website?url=https%3A%2F%2Ffreeipapi.com%2Fapi%2Fjson%2F117.30.120.138&label=freeipapi.com)](https://freeipapi.com/api/json/117.30.120.138) | freeipapi.com | ✅ | 361.28ms | 3/3 | [📁 查看](output/by_api/freeipapi.com/) |
+| [![ipwhois.app](https://img.shields.io/website?url=https%3A%2F%2Fipwhois.app%2Fjson%2F117.30.120.138%3Fformat%3Djson&label=ipwhois.app)](https://ipwhois.app/json/117.30.120.138?format=json) | ipwhois.app | ✅ | 44.67ms | 3/3 | [📁 查看](output/by_api/ipwhois.app/) |
+| [![ip.nc.gy](https://img.shields.io/website?url=https%3A%2F%2Fip.nc.gy%2Fjson%3Fip%3D117.30.120.138&label=ip.nc.gy)](https://ip.nc.gy/json?ip=117.30.120.138) | ip.nc.gy | ✅ | 93.82ms | 3/3 | [📁 查看](output/by_api/ip.nc.gy/) |
+| [![geojs.io](https://img.shields.io/website?url=https%3A%2F%2Fget.geojs.io%2Fv1%2Fip%2Fgeo%2F117.30.120.138.json&label=geojs.io)](https://get.geojs.io/v1/ip/geo/117.30.120.138.json) | geojs.io | ✅ | 94.96ms | 3/3 | [📁 查看](output/by_api/geojs.io/) |
+| [![baidu.opendata](https://img.shields.io/website?url=https%3A%2F%2Fopendata.baidu.com%2Fapi.php%3Fco%3D%26resource_id%3D6006%26oe%3Dutf8%26query%3D117.30.120.138&label=baidu.opendata)](https://opendata.baidu.com/api.php?co=&resource_id=6006&oe=utf8&query=117.30.120.138) | baidu.opendata | ✅ | 545.07ms | 3/3 | [📁 查看](output/by_api/baidu.opendata/) |
 
 ### 仅查询本机IP的API
 
 | 测试 | API | 状态 | 平均响应 | 成功率 | 详情 |
 |------|-----|------|---------|--------|------|
-| [![httpbin.org](https://img.shields.io/website?url=http%3A%2F%2Fhttpbin.org%2Fip&label=httpbin.org)](http://httpbin.org/ip) | httpbin.org | ✅ | 49.88ms | 3/3 | [📁 查看](output/by_api/httpbin.org/) |
-| [![cdid.ctrip](https://img.shields.io/website?url=https%3A%2F%2Fcdid.c-ctrip.com%2Fmodel-poc2%2Fh&label=cdid.ctrip)](https://cdid.c-ctrip.com/model-poc2/h) | cdid.ctrip | ✅ | 746.68ms | 3/3 | [📁 查看](output/by_api/cdid.ctrip/) |
-| [![qq.video](https://img.shields.io/website?url=https%3A%2F%2Fvv.video.qq.com%2Fchecktime%3Fotype%3Dojson&label=qq.video)](https://vv.video.qq.com/checktime?otype=ojson) | qq.video | ✅ | 591.49ms | 3/3 | [📁 查看](output/by_api/qq.video/) |
+| [![httpbin.org](https://img.shields.io/website?url=http%3A%2F%2Fhttpbin.org%2Fip&label=httpbin.org)](http://httpbin.org/ip) | httpbin.org | ✅ | 102.95ms | 3/3 | [📁 查看](output/by_api/httpbin.org/) |
+| [![cdid.ctrip](https://img.shields.io/website?url=https%3A%2F%2Fcdid.c-ctrip.com%2Fmodel-poc2%2Fh&label=cdid.ctrip)](https://cdid.c-ctrip.com/model-poc2/h) | cdid.ctrip | ✅ | 450.04ms | 3/3 | [📁 查看](output/by_api/cdid.ctrip/) |
+| [![qq.video](https://img.shields.io/website?url=https%3A%2F%2Fvv.video.qq.com%2Fchecktime%3Fotype%3Dojson&label=qq.video)](https://vv.video.qq.com/checktime?otype=ojson) | qq.video | ✅ | 259.52ms | 3/3 | [📁 查看](output/by_api/qq.video/) |
 | [![test.ipw.cn](https://img.shields.io/website?url=https%3A%2F%2Ftest.ipw.cn%2Fapi%2Fip%2Fmyip%3Fjson&label=test.ipw.cn)](https://test.ipw.cn/api/ip/myip?json) | test.ipw.cn | ❌ | - | 0/3 | [📁 查看](output/by_api/test.ipw.cn/) |
-| [![api.ipify.org](https://img.shields.io/website?url=https%3A%2F%2Fapi.ipify.org%3Fformat%3Djson&label=api.ipify.org)](https://api.ipify.org?format=json) | api.ipify.org | ✅ | 132.36ms | 3/3 | [📁 查看](output/by_api/api.ipify.org/) |
+| [![api.ipify.org](https://img.shields.io/website?url=https%3A%2F%2Fapi.ipify.org%3Fformat%3Djson&label=api.ipify.org)](https://api.ipify.org?format=json) | api.ipify.org | ✅ | 88.72ms | 3/3 | [📁 查看](output/by_api/api.ipify.org/) |
 | [![my.ipinfo.app](https://img.shields.io/website?url=https%3A%2F%2Fipv4.my.ipinfo.app%2Fapi%2FipDetails.php&label=my.ipinfo.app)](https://ipv4.my.ipinfo.app/api/ipDetails.php) | my.ipinfo.app | ❌ | - | 0/3 | [📁 查看](output/by_api/my.ipinfo.app/) |
-| [![g3.letv](https://img.shields.io/website?url=https%3A%2F%2Fg3.letv.com%2Fr%3Fformat%3D1&label=g3.letv)](https://g3.letv.com/r?format=1) | g3.letv | ✅ | 769.57ms | 3/3 | [📁 查看](output/by_api/g3.letv/) |
-| [![qq.inews](https://img.shields.io/website?url=https%3A%2F%2Fr.inews.qq.com%2Fapi%2Fip2city&label=qq.inews)](https://r.inews.qq.com/api/ip2city) | qq.inews | ✅ | 448.41ms | 3/3 | [📁 查看](output/by_api/qq.inews/) |
-| [![myip.ipip.net](https://img.shields.io/website?url=https%3A%2F%2Fmyip.ipip.net%2Fjson&label=myip.ipip.net)](https://myip.ipip.net/json) | myip.ipip.net | ✅ | 338.01ms | 3/3 | [📁 查看](output/by_api/myip.ipip.net/) |
-| [![ifconfig.me](https://img.shields.io/website?url=https%3A%2F%2Fifconfig.me%2Fall.json&label=ifconfig.me)](https://ifconfig.me/all.json) | ifconfig.me | ✅ | 178.17ms | 3/3 | [📁 查看](output/by_api/ifconfig.me/) |
-| [![geolocation-db.com](https://img.shields.io/website?url=https%3A%2F%2Fgeolocation-db.com%2Fjson&label=geolocation-db.com)](https://geolocation-db.com/json) | geolocation-db.com | ✅ | 643.76ms | 3/3 | [📁 查看](output/by_api/geolocation-db.com/) |
-| [![api.myip.com](https://img.shields.io/website?url=https%3A%2F%2Fapi.myip.com&label=api.myip.com)](https://api.myip.com) | api.myip.com | ✅ | 183.83ms | 3/3 | [📁 查看](output/by_api/api.myip.com/) |
-| [![wtfismyip.com](https://img.shields.io/website?url=https%3A%2F%2Fwtfismyip.com%2Fjson&label=wtfismyip.com)](https://wtfismyip.com/json) | wtfismyip.com | ✅ | 294.38ms | 3/3 | [📁 查看](output/by_api/wtfismyip.com/) |
-| [![ipbase.com](https://img.shields.io/website?url=https%3A%2F%2Fapi.ipbase.com%2Fv1%2Fjson&label=ipbase.com)](https://api.ipbase.com/v1/json) | ipbase.com | ✅ | 320.49ms | 3/3 | [📁 查看](output/by_api/ipbase.com/) |
-| [![ipquery.io](https://img.shields.io/website?url=https%3A%2F%2Fapi.ipquery.io%2F%3Fformat%3Djson&label=ipquery.io)](https://api.ipquery.io/?format=json) | ipquery.io | ✅ | 189.85ms | 3/3 | [📁 查看](output/by_api/ipquery.io/) |
-| [![cloudflare.trace](https://img.shields.io/website?url=https%3A%2F%2F1.1.1.1%2Fcdn-cgi%2Ftrace&label=cloudflare.trace)](https://1.1.1.1/cdn-cgi/trace) | cloudflare.trace | ✅ | 25.13ms | 3/3 | [📁 查看](output/by_api/cloudflare.trace/) |
-| [![torproject](https://img.shields.io/website?url=https%3A%2F%2Fcheck.torproject.org%2Fapi%2Fip&label=torproject)](https://check.torproject.org/api/ip) | torproject | ✅ | 560.49ms | 3/3 | [📁 查看](output/by_api/torproject/) |
+| [![g3.letv](https://img.shields.io/website?url=https%3A%2F%2Fg3.letv.com%2Fr%3Fformat%3D1&label=g3.letv)](https://g3.letv.com/r?format=1) | g3.letv | ✅ | 822.76ms | 3/3 | [📁 查看](output/by_api/g3.letv/) |
+| [![qq.inews](https://img.shields.io/website?url=https%3A%2F%2Fr.inews.qq.com%2Fapi%2Fip2city&label=qq.inews)](https://r.inews.qq.com/api/ip2city) | qq.inews | ✅ | 323.99ms | 3/3 | [📁 查看](output/by_api/qq.inews/) |
+| [![myip.ipip.net](https://img.shields.io/website?url=https%3A%2F%2Fmyip.ipip.net%2Fjson&label=myip.ipip.net)](https://myip.ipip.net/json) | myip.ipip.net | ✅ | 193.24ms | 3/3 | [📁 查看](output/by_api/myip.ipip.net/) |
+| [![ifconfig.me](https://img.shields.io/website?url=https%3A%2F%2Fifconfig.me%2Fall.json&label=ifconfig.me)](https://ifconfig.me/all.json) | ifconfig.me | ✅ | 156.63ms | 3/3 | [📁 查看](output/by_api/ifconfig.me/) |
+| [![geolocation-db.com](https://img.shields.io/website?url=https%3A%2F%2Fgeolocation-db.com%2Fjson&label=geolocation-db.com)](https://geolocation-db.com/json) | geolocation-db.com | ✅ | 718.98ms | 3/3 | [📁 查看](output/by_api/geolocation-db.com/) |
+| [![api.myip.com](https://img.shields.io/website?url=https%3A%2F%2Fapi.myip.com&label=api.myip.com)](https://api.myip.com) | api.myip.com | ✅ | 177.59ms | 3/3 | [📁 查看](output/by_api/api.myip.com/) |
+| [![wtfismyip.com](https://img.shields.io/website?url=https%3A%2F%2Fwtfismyip.com%2Fjson&label=wtfismyip.com)](https://wtfismyip.com/json) | wtfismyip.com | ✅ | 175.76ms | 3/3 | [📁 查看](output/by_api/wtfismyip.com/) |
+| [![ipbase.com](https://img.shields.io/website?url=https%3A%2F%2Fapi.ipbase.com%2Fv1%2Fjson&label=ipbase.com)](https://api.ipbase.com/v1/json) | ipbase.com | ✅ | 300.56ms | 3/3 | [📁 查看](output/by_api/ipbase.com/) |
+| [![ipquery.io](https://img.shields.io/website?url=https%3A%2F%2Fapi.ipquery.io%2F%3Fformat%3Djson&label=ipquery.io)](https://api.ipquery.io/?format=json) | ipquery.io | ✅ | 238.37ms | 3/3 | [📁 查看](output/by_api/ipquery.io/) |
+| [![cloudflare.trace](https://img.shields.io/website?url=https%3A%2F%2F1.1.1.1%2Fcdn-cgi%2Ftrace&label=cloudflare.trace)](https://1.1.1.1/cdn-cgi/trace) | cloudflare.trace | ✅ | 7.65ms | 3/3 | [📁 查看](output/by_api/cloudflare.trace/) |
+| [![torproject](https://img.shields.io/website?url=https%3A%2F%2Fcheck.torproject.org%2Fapi%2Fip&label=torproject)](https://check.torproject.org/api/ip) | torproject | ✅ | 548.55ms | 3/3 | [📁 查看](output/by_api/torproject/) |
 | [![bilibili](https://img.shields.io/website?url=https%3A%2F%2Fapi.live.bilibili.com%2Fxlive%2Fweb-room%2Fv1%2Findex%2FgetIpInfo&label=bilibili)](https://api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo) | bilibili | ❌ | - | 0/3 | [📁 查看](output/by_api/bilibili/) |
-| [![news.qq](https://img.shields.io/website?url=https%3A%2F%2Fi.news.qq.com%2Fapi%2Fip2city&label=news.qq)](https://i.news.qq.com/api/ip2city) | news.qq | ✅ | 700.37ms | 3/3 | [📁 查看](output/by_api/news.qq/) |
-| [![gdt.qq](https://img.shields.io/website?url=https%3A%2F%2Fipv4.gdt.qq.com%2Fget_client_ip&label=gdt.qq)](https://ipv4.gdt.qq.com/get_client_ip) | gdt.qq | ✅ | 973.42ms | 3/3 | [📁 查看](output/by_api/gdt.qq/) |
-| [![cip.cc](https://img.shields.io/website?url=http%3A%2F%2Fwww.cip.cc%2F117.30.120.138&label=cip.cc)](http://www.cip.cc/117.30.120.138) | cip.cc | ✅ | 714.5ms | 3/3 | [📁 查看](output/by_api/cip.cc/) |
+| [![news.qq](https://img.shields.io/website?url=https%3A%2F%2Fi.news.qq.com%2Fapi%2Fip2city&label=news.qq)](https://i.news.qq.com/api/ip2city) | news.qq | ✅ | 387.56ms | 3/3 | [📁 查看](output/by_api/news.qq/) |
+| [![gdt.qq](https://img.shields.io/website?url=https%3A%2F%2Fipv4.gdt.qq.com%2Fget_client_ip&label=gdt.qq)](https://ipv4.gdt.qq.com/get_client_ip) | gdt.qq | ✅ | 583.38ms | 3/3 | [📁 查看](output/by_api/gdt.qq/) |
+| [![cip.cc](https://img.shields.io/website?url=http%3A%2F%2Fwww.cip.cc%2F117.30.120.138&label=cip.cc)](http://www.cip.cc/117.30.120.138) | cip.cc | ✅ | 783.53ms | 3/3 | [📁 查看](output/by_api/cip.cc/) |
 
 ### 仅支持查询指定IP的API
 
 | 测试 | API | 状态 | 平均响应 | 成功率 | 详情 |
 |------|-----|------|---------|--------|------|
-| [![ipinfo.io](https://img.shields.io/website?url=https%3A%2F%2Fipinfo.io%2Fwidget%2Fdemo%2F117.30.120.138&label=ipinfo.io)](https://ipinfo.io/widget/demo/117.30.120.138) | ipinfo.io | ✅ | 235.74ms | 3/3 | [📁 查看](output/by_api/ipinfo.io/) |
-| [![db-ip.demo](https://img.shields.io/website?url=https%3A%2F%2Fdb-ip.com%2Fdemo%2Fhome.php%3Fs%3D117.30.120.138&label=db-ip.demo)](https://db-ip.com/demo/home.php?s=117.30.120.138) | db-ip.demo | ✅ | 274.18ms | 3/3 | [📁 查看](output/by_api/db-ip.demo/) |
-| [![iqiyi.mesh](https://img.shields.io/website?url=https%3A%2F%2Fmesh.if.iqiyi.com%2Faid%2Fip%2Finfo%3Fip%3D117.30.120.138&label=iqiyi.mesh)](https://mesh.if.iqiyi.com/aid/ip/info?ip=117.30.120.138) | iqiyi.mesh | ✅ | 694.48ms | 3/3 | [📁 查看](output/by_api/iqiyi.mesh/) |
+| [![ipinfo.io](https://img.shields.io/website?url=https%3A%2F%2Fipinfo.io%2Fwidget%2Fdemo%2F117.30.120.138&label=ipinfo.io)](https://ipinfo.io/widget/demo/117.30.120.138) | ipinfo.io | ✅ | 215.17ms | 3/3 | [📁 查看](output/by_api/ipinfo.io/) |
+| [![db-ip.demo](https://img.shields.io/website?url=https%3A%2F%2Fdb-ip.com%2Fdemo%2Fhome.php%3Fs%3D117.30.120.138&label=db-ip.demo)](https://db-ip.com/demo/home.php?s=117.30.120.138) | db-ip.demo | ✅ | 235.29ms | 3/3 | [📁 查看](output/by_api/db-ip.demo/) |
+| [![iqiyi.mesh](https://img.shields.io/website?url=https%3A%2F%2Fmesh.if.iqiyi.com%2Faid%2Fip%2Finfo%3Fip%3D117.30.120.138&label=iqiyi.mesh)](https://mesh.if.iqiyi.com/aid/ip/info?ip=117.30.120.138) | iqiyi.mesh | ✅ | 578.36ms | 3/3 | [📁 查看](output/by_api/iqiyi.mesh/) |
 
 ### 已失效的API
 
 | 测试 | API | 状态 | 平均响应 | 成功率 | 详情 |
 |------|-----|------|---------|--------|------|
-| [![meitu.webapi](https://img.shields.io/website?url=https%3A%2F%2Fwebapi-pc.meitu.com%2Fcommon%2Fip_location%3Fip%3D117.30.120.138&label=meitu.webapi)](https://webapi-pc.meitu.com/common/ip_location?ip=117.30.120.138) | meitu.webapi | ✅ | 702.88ms | 3/3 | [📁 查看](output/by_api/meitu.webapi/) |
+| [![meitu.webapi](https://img.shields.io/website?url=https%3A%2F%2Fwebapi-pc.meitu.com%2Fcommon%2Fip_location%3Fip%3D117.30.120.138&label=meitu.webapi)](https://webapi-pc.meitu.com/common/ip_location?ip=117.30.120.138) | meitu.webapi | ✅ | 585.5ms | 3/3 | [📁 查看](output/by_api/meitu.webapi/) |
 | [![ip.cn](https://img.shields.io/website?url=https%3A%2F%2Fwww.ip.cn%2Fapi%2Findex%3Fip%3D117.30.120.138%26type%3D0&label=ip.cn)](https://www.ip.cn/api/index?ip=117.30.120.138&type=0) | ip.cn | ❌ | - | 0/3 | [📁 查看](output/by_api/ip.cn/) |
 | [![vore.top](https://img.shields.io/website?url=https%3A%2F%2Fapi.vore.top%2Fapi%2FIPdata%3Fip%3D117.30.120.138&label=vore.top)](https://api.vore.top/api/IPdata?ip=117.30.120.138) | vore.top | ❌ | - | 0/3 | [📁 查看](output/by_api/vore.top/) |
 | [![qjqq.cn](https://img.shields.io/website?url=https%3A%2F%2Fapi.qjqq.cn%2Fapi%2FLocal%3Fip%3D117.30.120.138&label=qjqq.cn)](https://api.qjqq.cn/api/Local?ip=117.30.120.138) | qjqq.cn | ❌ | - | 0/3 | [📁 查看](output/by_api/qjqq.cn/) |
@@ -76,7 +76,7 @@
 | [![useragentinfo](https://img.shields.io/website?url=https%3A%2F%2Fip.useragentinfo.com%2Fjson&label=useragentinfo)](https://ip.useragentinfo.com/json) | useragentinfo | ❌ | - | 0/3 | [📁 查看](output/by_api/useragentinfo/) |
 | [![uomg.com](https://img.shields.io/website?url=https%3A%2F%2Fapi.uomg.com%2Fapi%2Fvisitor.info%3Fskey%3D1&label=uomg.com)](https://api.uomg.com/api/visitor.info?skey=1) | uomg.com | ❌ | - | 0/3 | [📁 查看](output/by_api/uomg.com/) |
 | [![baidu.qifu](https://img.shields.io/website?url=https%3A%2F%2Fqifu-api.baidubce.com%2Fip%2Flocal%2Fgeo%2Fv1%2Fdistrict&label=baidu.qifu)](https://qifu-api.baidubce.com/ip/local/geo/v1/district) | baidu.qifu | ❌ | - | 0/3 | [📁 查看](output/by_api/baidu.qifu/) |
-| [![ipapi.com](https://img.shields.io/website?url=https%3A%2F%2Fipapi.com%2Fip_api.php%3Fip%3D117.30.120.138&label=ipapi.com)](https://ipapi.com/ip_api.php?ip=117.30.120.138) | ipapi.com | ✅ | 479.39ms | 3/3 | [📁 查看](output/by_api/ipapi.com/) |
+| [![ipapi.com](https://img.shields.io/website?url=https%3A%2F%2Fipapi.com%2Fip_api.php%3Fip%3D117.30.120.138&label=ipapi.com)](https://ipapi.com/ip_api.php?ip=117.30.120.138) | ipapi.com | ✅ | 422.43ms | 3/3 | [📁 查看](output/by_api/ipapi.com/) |
 <!-- API_STATUS_END -->
 
 # 说明
