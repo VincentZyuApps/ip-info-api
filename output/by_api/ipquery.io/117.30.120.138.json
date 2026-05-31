@@ -1,11 +1,37 @@
 {
   "name": "ipquery.io",
   "url": "https://api.ipquery.io/?format=json",
-  "status": "timeout",
-  "elapsed_ms": 10863.8,
+  "status": "success",
+  "elapsed_ms": 695.7,
   "remark": "",
   "supports_ip": false,
-  "result": null,
-  "error": "请求超时",
+  "result": {
+    "ip": "172.203.30.209",
+    "isp": {
+      "asn": "AS8075",
+      "org": "Microsoft Corporation",
+      "isp": "Microsoft"
+    },
+    "location": {
+      "country": "United States",
+      "country_code": "US",
+      "city": "Ashburn",
+      "state": "Virginia",
+      "zipcode": "20149",
+      "latitude": 39.01645055256564,
+      "longitude": -77.48758640924137,
+      "timezone": "America/New_York",
+      "localtime": "2026-05-31T09:41:50"
+    },
+    "risk": {
+      "is_mobile": false,
+      "is_vpn": false,
+      "is_tor": false,
+      "is_proxy": false,
+      "is_datacenter": true,
+      "risk_score": 0
+    }
+  },
+  "error": null,
   "test_ip": "117.30.120.138"
 }
