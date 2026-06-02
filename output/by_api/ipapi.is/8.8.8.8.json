@@ -2,7 +2,7 @@
   "name": "ipapi.is",
   "url": "https://api.ipapi.is/?ip=8.8.8.8",
   "status": "success",
-  "elapsed_ms": 17.17,
+  "elapsed_ms": 55.83,
   "remark": "",
   "supports_ip": true,
   "result": {
@@ -15,8 +15,15 @@
     "is_datacenter": true,
     "is_tor": false,
     "is_proxy": false,
-    "is_vpn": false,
+    "is_vpn": true,
     "is_abuser": true,
+    "vpn": {
+      "ip": "8.8.8.8",
+      "service": "PublicVpnConfigs",
+      "type": "vpn_server",
+      "last_seen": 1780330175271,
+      "last_seen_str": "2026-06-01T16:09:35.271Z"
+    },
     "datacenter": {
       "datacenter": "Google LLC",
       "domain": "google.com",
@@ -38,7 +45,7 @@
     },
     "asn": {
       "asn": 15169,
-      "abuser_score": "0.0006 (Low)",
+      "abuser_score": "0.0009 (Low)",
       "route": "8.8.8.0/24",
       "descr": "GOOGLE - Google LLC, US",
       "country": "us",
@@ -64,13 +71,13 @@
       "longitude": -122.08385,
       "zip": "95196",
       "timezone": "America/Los_Angeles",
-      "local_time": "2026-06-02T04:11:41-07:00",
-      "local_time_unix": 1780398701,
+      "local_time": "2026-06-02T10:13:34-07:00",
+      "local_time_unix": 1780420414,
       "is_dst": true,
       "utcoffset": "-07:00",
       "accuracy": "HIGH"
     },
-    "elapsed_ms": 0.36
+    "elapsed_ms": 0.16
   },
   "error": null,
   "test_ip": "8.8.8.8"
