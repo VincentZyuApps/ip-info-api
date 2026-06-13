@@ -3,11 +3,11 @@
     "name": "api.ipify.org",
     "url": "https://api.ipify.org?format=json",
     "status": "success",
-    "elapsed_ms": 205.21,
+    "elapsed_ms": 169.29,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "ip": "20.55.86.48"
+      "ip": "68.220.61.179"
     },
     "error": null,
     "test_ip": "117.30.120.138"
@@ -16,11 +16,11 @@
     "name": "api.ipify.org",
     "url": "https://api.ipify.org?format=json",
     "status": "success",
-    "elapsed_ms": 13.04,
+    "elapsed_ms": 73.0,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "ip": "20.55.86.48"
+      "ip": "68.220.61.179"
     },
     "error": null,
     "test_ip": "1.1.1.1"
@@ -29,11 +29,11 @@
     "name": "api.ipify.org",
     "url": "https://api.ipify.org?format=json",
     "status": "success",
-    "elapsed_ms": 14.83,
+    "elapsed_ms": 74.7,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "ip": "20.55.86.48"
+      "ip": "68.220.61.179"
     },
     "error": null,
     "test_ip": "8.8.8.8"
@@ -42,11 +42,11 @@
     "name": "api.myip.com",
     "url": "https://api.myip.com",
     "status": "success",
-    "elapsed_ms": 311.71,
+    "elapsed_ms": 435.65,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "raw": "{\"ip\":\"20.55.86.48\",\"country\":\"United States\",\"cc\":\"US\"}"
+      "raw": "{\"ip\":\"68.220.61.179\",\"country\":\"United States\",\"cc\":\"US\"}"
     },
     "error": null,
     "test_ip": "117.30.120.138"
@@ -55,11 +55,11 @@
     "name": "api.myip.com",
     "url": "https://api.myip.com",
     "status": "success",
-    "elapsed_ms": 17.08,
+    "elapsed_ms": 73.21,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "raw": "{\"ip\":\"20.55.86.48\",\"country\":\"United States\",\"cc\":\"US\"}"
+      "raw": "{\"ip\":\"68.220.61.179\",\"country\":\"United States\",\"cc\":\"US\"}"
     },
     "error": null,
     "test_ip": "1.1.1.1"
@@ -68,11 +68,11 @@
     "name": "api.myip.com",
     "url": "https://api.myip.com",
     "status": "success",
-    "elapsed_ms": 14.52,
+    "elapsed_ms": 72.94,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "raw": "{\"ip\":\"20.55.86.48\",\"country\":\"United States\",\"cc\":\"US\"}"
+      "raw": "{\"ip\":\"68.220.61.179\",\"country\":\"United States\",\"cc\":\"US\"}"
     },
     "error": null,
     "test_ip": "8.8.8.8"
@@ -81,7 +81,7 @@
     "name": "baidu.opendata",
     "url": "https://opendata.baidu.com/api.php?co=&resource_id=6006&oe=utf8&query=117.30.120.138",
     "status": "success",
-    "elapsed_ms": 1779.76,
+    "elapsed_ms": 1389.01,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -118,7 +118,7 @@
     "name": "baidu.opendata",
     "url": "https://opendata.baidu.com/api.php?co=&resource_id=6006&oe=utf8&query=1.1.1.1",
     "status": "success",
-    "elapsed_ms": 237.28,
+    "elapsed_ms": 179.9,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -155,7 +155,7 @@
     "name": "baidu.opendata",
     "url": "https://opendata.baidu.com/api.php?co=&resource_id=6006&oe=utf8&query=8.8.8.8",
     "status": "success",
-    "elapsed_ms": 240.01,
+    "elapsed_ms": 177.05,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -189,14 +189,92 @@
     "test_ip": "8.8.8.8"
   },
   {
-    "name": "cdid.ctrip",
-    "url": "https://cdid.c-ctrip.com/model-poc2/h",
-    "status": "success",
-    "elapsed_ms": 1757.41,
+    "name": "baidu.qifu",
+    "url": "https://qifu-api.baidubce.com/ip/local/geo/v1/district",
+    "status": "http_403",
+    "elapsed_ms": 2648.19,
+    "remark": "已失效",
+    "supports_ip": false,
+    "result": {
+      "raw": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>nginx/1.26.0</center>\r\n</body>\r\n</html>\r\n"
+    },
+    "error": null,
+    "test_ip": "117.30.120.138"
+  },
+  {
+    "name": "baidu.qifu",
+    "url": "https://qifu-api.baidubce.com/ip/local/geo/v1/district",
+    "status": "http_403",
+    "elapsed_ms": 179.6,
+    "remark": "已失效",
+    "supports_ip": false,
+    "result": {
+      "raw": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>nginx/1.26.0</center>\r\n</body>\r\n</html>\r\n"
+    },
+    "error": null,
+    "test_ip": "1.1.1.1"
+  },
+  {
+    "name": "baidu.qifu",
+    "url": "https://qifu-api.baidubce.com/ip/local/geo/v1/district",
+    "status": "http_403",
+    "elapsed_ms": 175.24,
+    "remark": "已失效",
+    "supports_ip": false,
+    "result": {
+      "raw": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>nginx/1.26.0</center>\r\n</body>\r\n</html>\r\n"
+    },
+    "error": null,
+    "test_ip": "8.8.8.8"
+  },
+  {
+    "name": "bilibili",
+    "url": "https://api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo",
+    "status": "http_412",
+    "elapsed_ms": 1206.37,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "raw": "20.55.86.48"
+      "raw": "<!DOCTYPE html>\n<html lang=\"zh-cn\">\n\n<head>\n    <meta http-equiv=\"Access-Control-Allow-Origin\" content=\"*\" />\n    <meta http-equiv=\"Page-Enter\" content=\"blendTrans(Duration=0.5)\">\n    <meta http-equiv=\"Page-Exit\" content=\"blendTrans(Duration=0.5)\">\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n    <meta name=\"spm_prefix\" content=\"333.937\">\n "
+    },
+    "error": null,
+    "test_ip": "117.30.120.138"
+  },
+  {
+    "name": "bilibili",
+    "url": "https://api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo",
+    "status": "http_412",
+    "elapsed_ms": 180.54,
+    "remark": "",
+    "supports_ip": false,
+    "result": {
+      "raw": "<!DOCTYPE html>\n<html lang=\"zh-cn\">\n\n<head>\n    <meta http-equiv=\"Access-Control-Allow-Origin\" content=\"*\" />\n    <meta http-equiv=\"Page-Enter\" content=\"blendTrans(Duration=0.5)\">\n    <meta http-equiv=\"Page-Exit\" content=\"blendTrans(Duration=0.5)\">\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n    <meta name=\"spm_prefix\" content=\"333.937\">\n "
+    },
+    "error": null,
+    "test_ip": "1.1.1.1"
+  },
+  {
+    "name": "bilibili",
+    "url": "https://api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo",
+    "status": "http_412",
+    "elapsed_ms": 344.43,
+    "remark": "",
+    "supports_ip": false,
+    "result": {
+      "raw": "<!DOCTYPE html>\n<html lang=\"zh-cn\">\n\n<head>\n    <meta http-equiv=\"Access-Control-Allow-Origin\" content=\"*\" />\n    <meta http-equiv=\"Page-Enter\" content=\"blendTrans(Duration=0.5)\">\n    <meta http-equiv=\"Page-Exit\" content=\"blendTrans(Duration=0.5)\">\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n    <meta name=\"spm_prefix\" content=\"333.937\">\n "
+    },
+    "error": null,
+    "test_ip": "8.8.8.8"
+  },
+  {
+    "name": "cdid.ctrip",
+    "url": "https://cdid.c-ctrip.com/model-poc2/h",
+    "status": "success",
+    "elapsed_ms": 381.38,
+    "remark": "",
+    "supports_ip": false,
+    "result": {
+      "raw": "68.220.61.179"
     },
     "error": null,
     "test_ip": "117.30.120.138"
@@ -205,11 +283,11 @@
     "name": "cdid.ctrip",
     "url": "https://cdid.c-ctrip.com/model-poc2/h",
     "status": "success",
-    "elapsed_ms": 310.66,
+    "elapsed_ms": 275.02,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "raw": "20.55.86.48"
+      "raw": "68.220.61.179"
     },
     "error": null,
     "test_ip": "1.1.1.1"
@@ -218,11 +296,11 @@
     "name": "cdid.ctrip",
     "url": "https://cdid.c-ctrip.com/model-poc2/h",
     "status": "success",
-    "elapsed_ms": 320.16,
+    "elapsed_ms": 244.37,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "raw": "20.55.86.48"
+      "raw": "68.220.61.179"
     },
     "error": null,
     "test_ip": "8.8.8.8"
@@ -231,7 +309,7 @@
     "name": "cip.cc",
     "url": "http://www.cip.cc/117.30.120.138",
     "status": "success",
-    "elapsed_ms": 1986.86,
+    "elapsed_ms": 1245.04,
     "remark": "返回文本格式",
     "supports_ip": true,
     "result": {
@@ -242,9 +320,22 @@
   },
   {
     "name": "cip.cc",
+    "url": "http://www.cip.cc/1.1.1.1",
+    "status": "success",
+    "elapsed_ms": 182.02,
+    "remark": "返回文本格式",
+    "supports_ip": true,
+    "result": {
+      "raw": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n    <title>互连协议查询 - IP查询 - 查IP(www.cip.cc)</title>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"/>\n    <meta name=\"description\"\n          content=\"查IP(www.cip.cc)网站, 提供免费的IP查询服务,命令行查询IP, 并且支持'PC网站, 手机网站, 命令行(Windows/UNIX/Linux)' 三大平台, 是个多平台的IP查询网站, 更新即使, 数据准确是我们的目标\"/>\n    <meta name=\"keywords\" content=\"IP, 查IP, IP查询\"/>\n    <"
+    },
+    "error": null,
+    "test_ip": "1.1.1.1"
+  },
+  {
+    "name": "cip.cc",
     "url": "http://www.cip.cc/8.8.8.8",
     "status": "success",
-    "elapsed_ms": 738.03,
+    "elapsed_ms": 182.05,
     "remark": "返回文本格式",
     "supports_ip": true,
     "result": {
@@ -257,11 +348,11 @@
     "name": "cloudflare.trace",
     "url": "https://1.1.1.1/cdn-cgi/trace",
     "status": "success",
-    "elapsed_ms": 21.04,
+    "elapsed_ms": 31.87,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "raw": "fl=626f19\nh=1.1.1.1\nip=20.55.86.48\nts=1781370599.000\nvisit_scheme=https\nuag=Python/3.11 aiohttp/3.14.1\ncolo=IAD\nsliver=none\nhttp=http/1.1\nloc=US\ntls=TLSv1.3\nsni=off\nwarp=off\ngateway=off\nrbi=off\nkex=X25519\n"
+      "raw": "fl=1232f38\nh=1.1.1.1\nip=68.220.61.179\nts=1781381418.000\nvisit_scheme=https\nuag=Python/3.11 aiohttp/3.14.1\ncolo=SJC\nsliver=none\nhttp=http/1.1\nloc=US\ntls=TLSv1.3\nsni=off\nwarp=off\ngateway=off\nrbi=off\nkex=X25519\n"
     },
     "error": null,
     "test_ip": "117.30.120.138"
@@ -270,11 +361,11 @@
     "name": "cloudflare.trace",
     "url": "https://1.1.1.1/cdn-cgi/trace",
     "status": "success",
-    "elapsed_ms": 4.8,
+    "elapsed_ms": 2.97,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "raw": "fl=626f19\nh=1.1.1.1\nip=20.55.86.48\nts=1781370610.000\nvisit_scheme=https\nuag=Python/3.11 aiohttp/3.14.1\ncolo=IAD\nsliver=none\nhttp=http/1.1\nloc=US\ntls=TLSv1.3\nsni=off\nwarp=off\ngateway=off\nrbi=off\nkex=X25519\n"
+      "raw": "fl=1232f38\nh=1.1.1.1\nip=68.220.61.179\nts=1781381429.000\nvisit_scheme=https\nuag=Python/3.11 aiohttp/3.14.1\ncolo=SJC\nsliver=none\nhttp=http/1.1\nloc=US\ntls=TLSv1.3\nsni=off\nwarp=off\ngateway=off\nrbi=off\nkex=X25519\n"
     },
     "error": null,
     "test_ip": "1.1.1.1"
@@ -283,11 +374,50 @@
     "name": "cloudflare.trace",
     "url": "https://1.1.1.1/cdn-cgi/trace",
     "status": "success",
-    "elapsed_ms": 5.42,
+    "elapsed_ms": 3.28,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "raw": "fl=626f19\nh=1.1.1.1\nip=20.55.86.48\nts=1781370621.000\nvisit_scheme=https\nuag=Python/3.11 aiohttp/3.14.1\ncolo=IAD\nsliver=none\nhttp=http/1.1\nloc=US\ntls=TLSv1.3\nsni=off\nwarp=off\ngateway=off\nrbi=off\nkex=X25519\n"
+      "raw": "fl=1232f38\nh=1.1.1.1\nip=68.220.61.179\nts=1781381439.000\nvisit_scheme=https\nuag=Python/3.11 aiohttp/3.14.1\ncolo=SJC\nsliver=none\nhttp=http/1.1\nloc=US\ntls=TLSv1.3\nsni=off\nwarp=off\ngateway=off\nrbi=off\nkex=X25519\n"
+    },
+    "error": null,
+    "test_ip": "8.8.8.8"
+  },
+  {
+    "name": "csdn.searchplugin",
+    "url": "https://searchplugin.csdn.net/api/v1/ip/get?ip=117.30.120.138",
+    "status": "http_403",
+    "elapsed_ms": 1414.37,
+    "remark": "已失效",
+    "supports_ip": true,
+    "result": {
+      "raw": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>openresty</center>\r\n</body>\r\n</html>\r\n"
+    },
+    "error": null,
+    "test_ip": "117.30.120.138"
+  },
+  {
+    "name": "csdn.searchplugin",
+    "url": "https://searchplugin.csdn.net/api/v1/ip/get?ip=1.1.1.1",
+    "status": "http_403",
+    "elapsed_ms": 205.51,
+    "remark": "已失效",
+    "supports_ip": true,
+    "result": {
+      "raw": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>openresty</center>\r\n</body>\r\n</html>\r\n"
+    },
+    "error": null,
+    "test_ip": "1.1.1.1"
+  },
+  {
+    "name": "csdn.searchplugin",
+    "url": "https://searchplugin.csdn.net/api/v1/ip/get?ip=8.8.8.8",
+    "status": "http_403",
+    "elapsed_ms": 202.31,
+    "remark": "已失效",
+    "supports_ip": true,
+    "result": {
+      "raw": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>openresty</center>\r\n</body>\r\n</html>\r\n"
     },
     "error": null,
     "test_ip": "8.8.8.8"
@@ -296,7 +426,7 @@
     "name": "db-ip.com",
     "url": "https://api.db-ip.com/v2/free/117.30.120.138",
     "status": "success",
-    "elapsed_ms": 105.66,
+    "elapsed_ms": 226.31,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -315,7 +445,7 @@
     "name": "db-ip.com",
     "url": "https://api.db-ip.com/v2/free/1.1.1.1",
     "status": "success",
-    "elapsed_ms": 41.89,
+    "elapsed_ms": 80.11,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -335,7 +465,7 @@
     "name": "db-ip.com",
     "url": "https://api.db-ip.com/v2/free/8.8.8.8",
     "status": "success",
-    "elapsed_ms": 45.51,
+    "elapsed_ms": 157.39,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -355,7 +485,7 @@
     "name": "db-ip.demo",
     "url": "https://db-ip.com/demo/home.php?s=117.30.120.138",
     "status": "success",
-    "elapsed_ms": 712.72,
+    "elapsed_ms": 555.99,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -401,7 +531,7 @@
     "name": "db-ip.demo",
     "url": "https://db-ip.com/demo/home.php?s=1.1.1.1",
     "status": "success",
-    "elapsed_ms": 23.06,
+    "elapsed_ms": 79.31,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -417,7 +547,7 @@
     "name": "db-ip.demo",
     "url": "https://db-ip.com/demo/home.php?s=8.8.8.8",
     "status": "success",
-    "elapsed_ms": 23.54,
+    "elapsed_ms": 77.29,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -433,7 +563,7 @@
     "name": "demo.ip-api.com",
     "url": "http://demo.ip-api.com/json/117.30.120.138?fields=66842623&lang=zh-CN",
     "status": "success",
-    "elapsed_ms": 256.61,
+    "elapsed_ms": 88.23,
     "remark": "支持中文",
     "supports_ip": true,
     "result": {
@@ -468,7 +598,7 @@
     "name": "demo.ip-api.com",
     "url": "http://demo.ip-api.com/json/1.1.1.1?fields=66842623&lang=zh-CN",
     "status": "success",
-    "elapsed_ms": 26.4,
+    "elapsed_ms": 36.43,
     "remark": "支持中文",
     "supports_ip": true,
     "result": {
@@ -503,7 +633,7 @@
     "name": "demo.ip-api.com",
     "url": "http://demo.ip-api.com/json/8.8.8.8?fields=66842623&lang=zh-CN",
     "status": "success",
-    "elapsed_ms": 324.45,
+    "elapsed_ms": 33.65,
     "remark": "支持中文",
     "supports_ip": true,
     "result": {
@@ -538,7 +668,7 @@
     "name": "freeipapi.com",
     "url": "https://freeipapi.com/api/json/117.30.120.138",
     "status": "success",
-    "elapsed_ms": 781.05,
+    "elapsed_ms": 659.65,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -579,7 +709,7 @@
     "name": "freeipapi.com",
     "url": "https://freeipapi.com/api/json/1.1.1.1",
     "status": "success",
-    "elapsed_ms": 137.39,
+    "elapsed_ms": 187.19,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -630,7 +760,7 @@
     "name": "freeipapi.com",
     "url": "https://freeipapi.com/api/json/8.8.8.8",
     "status": "success",
-    "elapsed_ms": 133.24,
+    "elapsed_ms": 193.0,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -700,20 +830,20 @@
     "name": "g3.letv",
     "url": "https://g3.letv.com/r?format=1",
     "status": "success",
-    "elapsed_ms": 1698.46,
+    "elapsed_ms": 1399.91,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "ipint": "339170864",
-      "host": "20.55.86.48",
-      "remote": "20.55.86.48",
-      "ipstart": "339148800",
-      "ipend": "339214335",
+      "ipint": "1155284403",
+      "host": "68.220.61.179",
+      "remote": "68.220.61.179",
+      "ipstart": "1155268608",
+      "ipend": "1155334143",
       "geo": "US.0.0.100",
       "desc": "美国-未知-未知-国外",
       "buss": "bussid=4444,alv=6,orgqos=1,host=2,port=80",
-      "curtime": 1781370600,
-      "identify": "1731505684:8125",
+      "curtime": 1781381419,
+      "identify": "1731505684:8132",
       "fixlist": "",
       "qosfix": "",
       "prior": "",
@@ -729,20 +859,20 @@
     "name": "g3.letv",
     "url": "https://g3.letv.com/r?format=1",
     "status": "success",
-    "elapsed_ms": 291.76,
+    "elapsed_ms": 217.81,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "ipint": "339170864",
-      "host": "20.55.86.48",
-      "remote": "20.55.86.48",
-      "ipstart": "339148800",
-      "ipend": "339214335",
+      "ipint": "1155284403",
+      "host": "68.220.61.179",
+      "remote": "68.220.61.179",
+      "ipstart": "1155268608",
+      "ipend": "1155334143",
       "geo": "US.0.0.100",
       "desc": "美国-未知-未知-国外",
       "buss": "bussid=4444,alv=6,orgqos=1,host=2,port=80",
-      "curtime": 1781370610,
-      "identify": "1731505684:8129",
+      "curtime": 1781381429,
+      "identify": "1731505684:8132",
       "fixlist": "",
       "qosfix": "",
       "prior": "",
@@ -758,20 +888,20 @@
     "name": "g3.letv",
     "url": "https://g3.letv.com/r?format=1",
     "status": "success",
-    "elapsed_ms": 291.77,
+    "elapsed_ms": 217.83,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "ipint": "339170864",
-      "host": "20.55.86.48",
-      "remote": "20.55.86.48",
-      "ipstart": "339148800",
-      "ipend": "339214335",
+      "ipint": "1155284403",
+      "host": "68.220.61.179",
+      "remote": "68.220.61.179",
+      "ipstart": "1155268608",
+      "ipend": "1155334143",
       "geo": "US.0.0.100",
       "desc": "美国-未知-未知-国外",
       "buss": "bussid=4444,alv=6,orgqos=1,host=2,port=80",
-      "curtime": 1781370620,
-      "identify": "1731505684:8134",
+      "curtime": 1781381439,
+      "identify": "1731505684:8131",
       "fixlist": "",
       "qosfix": "",
       "prior": "",
@@ -787,11 +917,11 @@
     "name": "gdt.qq",
     "url": "https://ipv4.gdt.qq.com/get_client_ip",
     "status": "success",
-    "elapsed_ms": 1841.11,
+    "elapsed_ms": 1325.79,
     "remark": "返回纯文本",
     "supports_ip": false,
     "result": {
-      "raw": "20.55.86.48"
+      "raw": "68.220.61.179"
     },
     "error": null,
     "test_ip": "117.30.120.138"
@@ -800,11 +930,11 @@
     "name": "gdt.qq",
     "url": "https://ipv4.gdt.qq.com/get_client_ip",
     "status": "success",
-    "elapsed_ms": 254.54,
+    "elapsed_ms": 198.24,
     "remark": "返回纯文本",
     "supports_ip": false,
     "result": {
-      "raw": "20.55.86.48"
+      "raw": "68.220.61.179"
     },
     "error": null,
     "test_ip": "1.1.1.1"
@@ -813,11 +943,11 @@
     "name": "gdt.qq",
     "url": "https://ipv4.gdt.qq.com/get_client_ip",
     "status": "success",
-    "elapsed_ms": 249.22,
+    "elapsed_ms": 196.86,
     "remark": "返回纯文本",
     "supports_ip": false,
     "result": {
-      "raw": "20.55.86.48"
+      "raw": "68.220.61.179"
     },
     "error": null,
     "test_ip": "8.8.8.8"
@@ -826,7 +956,7 @@
     "name": "geojs.io",
     "url": "https://get.geojs.io/v1/ip/geo/117.30.120.138.json",
     "status": "success",
-    "elapsed_ms": 85.91,
+    "elapsed_ms": 83.31,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -853,7 +983,7 @@
     "name": "geojs.io",
     "url": "https://get.geojs.io/v1/ip/geo/1.1.1.1.json",
     "status": "success",
-    "elapsed_ms": 15.29,
+    "elapsed_ms": 9.66,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -872,7 +1002,7 @@
     "name": "geojs.io",
     "url": "https://get.geojs.io/v1/ip/geo/8.8.8.8.json",
     "status": "success",
-    "elapsed_ms": 15.29,
+    "elapsed_ms": 15.16,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -897,11 +1027,11 @@
     "name": "geolocation-db.com",
     "url": "https://geolocation-db.com/json",
     "status": "success",
-    "elapsed_ms": 743.34,
+    "elapsed_ms": 1229.82,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "raw": "{\"country_code\":\"US\",\"country_name\":\"United States\",\"city\":null,\"postal\":null,\"latitude\":37.751,\"longitude\":-97.822,\"IPv4\":\"20.55.86.48\",\"state\":null}"
+      "raw": "{\"country_code\":\"US\",\"country_name\":\"United States\",\"city\":null,\"postal\":null,\"latitude\":37.751,\"longitude\":-97.822,\"IPv4\":\"68.220.61.179\",\"state\":null}"
     },
     "error": null,
     "test_ip": "117.30.120.138"
@@ -910,11 +1040,11 @@
     "name": "geolocation-db.com",
     "url": "https://geolocation-db.com/json",
     "status": "success",
-    "elapsed_ms": 471.7,
+    "elapsed_ms": 336.45,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "raw": "{\"country_code\":\"US\",\"country_name\":\"United States\",\"city\":null,\"postal\":null,\"latitude\":37.751,\"longitude\":-97.822,\"IPv4\":\"20.55.86.48\",\"state\":null}"
+      "raw": "{\"country_code\":\"US\",\"country_name\":\"United States\",\"city\":null,\"postal\":null,\"latitude\":37.751,\"longitude\":-97.822,\"IPv4\":\"68.220.61.179\",\"state\":null}"
     },
     "error": null,
     "test_ip": "1.1.1.1"
@@ -923,11 +1053,11 @@
     "name": "geolocation-db.com",
     "url": "https://geolocation-db.com/json",
     "status": "success",
-    "elapsed_ms": 486.42,
+    "elapsed_ms": 333.73,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "raw": "{\"country_code\":\"US\",\"country_name\":\"United States\",\"city\":null,\"postal\":null,\"latitude\":37.751,\"longitude\":-97.822,\"IPv4\":\"20.55.86.48\",\"state\":null}"
+      "raw": "{\"country_code\":\"US\",\"country_name\":\"United States\",\"city\":null,\"postal\":null,\"latitude\":37.751,\"longitude\":-97.822,\"IPv4\":\"68.220.61.179\",\"state\":null}"
     },
     "error": null,
     "test_ip": "8.8.8.8"
@@ -936,11 +1066,11 @@
     "name": "httpbin.org",
     "url": "http://httpbin.org/ip",
     "status": "success",
-    "elapsed_ms": 143.11,
+    "elapsed_ms": 202.79,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "origin": "20.55.86.48"
+      "origin": "68.220.61.179"
     },
     "error": null,
     "test_ip": "117.30.120.138"
@@ -949,11 +1079,11 @@
     "name": "httpbin.org",
     "url": "http://httpbin.org/ip",
     "status": "success",
-    "elapsed_ms": 203.62,
+    "elapsed_ms": 65.6,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "origin": "20.55.86.48"
+      "origin": "68.220.61.179"
     },
     "error": null,
     "test_ip": "1.1.1.1"
@@ -962,11 +1092,11 @@
     "name": "httpbin.org",
     "url": "http://httpbin.org/ip",
     "status": "success",
-    "elapsed_ms": 3.99,
+    "elapsed_ms": 66.07,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "origin": "20.55.86.48"
+      "origin": "68.220.61.179"
     },
     "error": null,
     "test_ip": "8.8.8.8"
@@ -975,18 +1105,18 @@
     "name": "ifconfig.me",
     "url": "https://ifconfig.me/all.json",
     "status": "success",
-    "elapsed_ms": 302.71,
+    "elapsed_ms": 410.23,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "ip_addr": "20.55.86.48",
+      "ip_addr": "68.220.61.179",
       "user_agent": "Python/3.11 aiohttp/3.14.1",
-      "port": "50804",
+      "port": "50934",
       "method": "GET",
       "encoding": "gzip, deflate",
       "mime": "*/*",
       "via": "1.1 google",
-      "forwarded": "20.55.86.48,34.160.111.145"
+      "forwarded": "68.220.61.179,34.160.111.145"
     },
     "error": null,
     "test_ip": "117.30.120.138"
@@ -995,18 +1125,18 @@
     "name": "ifconfig.me",
     "url": "https://ifconfig.me/all.json",
     "status": "success",
-    "elapsed_ms": 27.62,
+    "elapsed_ms": 58.18,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "ip_addr": "20.55.86.48",
+      "ip_addr": "68.220.61.179",
       "user_agent": "Python/3.11 aiohttp/3.14.1",
-      "port": "53138",
+      "port": "52122",
       "method": "GET",
       "encoding": "gzip, deflate",
       "mime": "*/*",
       "via": "1.1 google",
-      "forwarded": "20.55.86.48,34.160.111.145"
+      "forwarded": "68.220.61.179,34.160.111.145"
     },
     "error": null,
     "test_ip": "1.1.1.1"
@@ -1015,18 +1145,18 @@
     "name": "ifconfig.me",
     "url": "https://ifconfig.me/all.json",
     "status": "success",
-    "elapsed_ms": 41.85,
+    "elapsed_ms": 56.22,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "ip_addr": "20.55.86.48",
+      "ip_addr": "68.220.61.179",
       "user_agent": "Python/3.11 aiohttp/3.14.1",
-      "port": "45830",
+      "port": "52122",
       "method": "GET",
       "encoding": "gzip, deflate",
       "mime": "*/*",
       "via": "1.1 google",
-      "forwarded": "20.55.86.48,34.160.111.145"
+      "forwarded": "68.220.61.179,34.160.111.145"
     },
     "error": null,
     "test_ip": "8.8.8.8"
@@ -1035,7 +1165,7 @@
     "name": "ip-api.com",
     "url": "http://ip-api.com/json/117.30.120.138?lang=zh-CN",
     "status": "success",
-    "elapsed_ms": 27.45,
+    "elapsed_ms": 84.3,
     "remark": "支持中文",
     "supports_ip": true,
     "result": {
@@ -1061,7 +1191,7 @@
     "name": "ip-api.com",
     "url": "http://ip-api.com/json/1.1.1.1?lang=zh-CN",
     "status": "success",
-    "elapsed_ms": 19.94,
+    "elapsed_ms": 8.81,
     "remark": "支持中文",
     "supports_ip": true,
     "result": {
@@ -1087,7 +1217,7 @@
     "name": "ip-api.com",
     "url": "http://ip-api.com/json/8.8.8.8?lang=zh-CN",
     "status": "success",
-    "elapsed_ms": 21.63,
+    "elapsed_ms": 8.63,
     "remark": "支持中文",
     "supports_ip": true,
     "result": {
@@ -1110,10 +1240,82 @@
     "test_ip": "8.8.8.8"
   },
   {
+    "name": "ip-api.io",
+    "url": "https://ip-api.io/json?ip=117.30.120.138",
+    "status": "http_401",
+    "elapsed_ms": 1228.42,
+    "remark": "已失效",
+    "supports_ip": true,
+    "result": {
+      "raw": "Valid API key is required. Please visit https://ip-api.io to obtain an API key."
+    },
+    "error": null,
+    "test_ip": "117.30.120.138"
+  },
+  {
+    "name": "ip-api.io",
+    "url": "https://ip-api.io/json?ip=1.1.1.1",
+    "status": "http_401",
+    "elapsed_ms": 156.24,
+    "remark": "已失效",
+    "supports_ip": true,
+    "result": {
+      "raw": "Valid API key is required. Please visit https://ip-api.io to obtain an API key."
+    },
+    "error": null,
+    "test_ip": "1.1.1.1"
+  },
+  {
+    "name": "ip-api.io",
+    "url": "https://ip-api.io/json?ip=8.8.8.8",
+    "status": "http_401",
+    "elapsed_ms": 156.92,
+    "remark": "已失效",
+    "supports_ip": true,
+    "result": {
+      "raw": "Valid API key is required. Please visit https://ip-api.io to obtain an API key."
+    },
+    "error": null,
+    "test_ip": "8.8.8.8"
+  },
+  {
+    "name": "ip.cn",
+    "url": "https://www.ip.cn/api/index?ip=117.30.120.138&type=0",
+    "status": "error",
+    "elapsed_ms": 1022.07,
+    "remark": "已失效",
+    "supports_ip": true,
+    "result": null,
+    "error": "Cannot connect to host 127.0.0.1:80 ssl:default [Connect call failed ('127.0.0.1', 80)]",
+    "test_ip": "117.30.120.138"
+  },
+  {
+    "name": "ip.cn",
+    "url": "https://www.ip.cn/api/index?ip=1.1.1.1&type=0",
+    "status": "error",
+    "elapsed_ms": 48.16,
+    "remark": "已失效",
+    "supports_ip": true,
+    "result": null,
+    "error": "Cannot connect to host 127.0.0.1:80 ssl:default [Connect call failed ('127.0.0.1', 80)]",
+    "test_ip": "1.1.1.1"
+  },
+  {
+    "name": "ip.cn",
+    "url": "https://www.ip.cn/api/index?ip=8.8.8.8&type=0",
+    "status": "error",
+    "elapsed_ms": 47.97,
+    "remark": "已失效",
+    "supports_ip": true,
+    "result": null,
+    "error": "Cannot connect to host 127.0.0.1:80 ssl:default [Connect call failed ('127.0.0.1', 80)]",
+    "test_ip": "8.8.8.8"
+  },
+  {
     "name": "ip.nc.gy",
     "url": "https://ip.nc.gy/json?ip=117.30.120.138",
     "status": "success",
-    "elapsed_ms": 296.06,
+    "elapsed_ms": 220.43,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -1216,7 +1418,7 @@
     "name": "ip.nc.gy",
     "url": "https://ip.nc.gy/json?ip=1.1.1.1",
     "status": "success",
-    "elapsed_ms": 46.93,
+    "elapsed_ms": 48.11,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -1276,7 +1478,7 @@
     "name": "ip.nc.gy",
     "url": "https://ip.nc.gy/json?ip=8.8.8.8",
     "status": "success",
-    "elapsed_ms": 47.11,
+    "elapsed_ms": 46.58,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -1351,24 +1553,24 @@
     "name": "ip.sb",
     "url": "https://api.ip.sb/geoip/117.30.120.138",
     "status": "success",
-    "elapsed_ms": 272.62,
+    "elapsed_ms": 1117.9,
     "remark": "",
     "supports_ip": true,
     "result": {
-      "region_code": "FJ",
-      "country": "China",
-      "city": "Xiamen",
-      "country_code": "CN",
       "organization": "China Telecom",
-      "latitude": 24.4793,
+      "country": "China",
       "isp": "China Telecom",
-      "longitude": 118.0673,
+      "country_code": "CN",
       "asn_organization": "Chinanet",
-      "timezone": "Asia/Shanghai",
-      "asn": 4134,
-      "offset": 28800,
-      "ip": "117.30.120.138",
       "region": "Fujian",
+      "asn": 4134,
+      "region_code": "FJ",
+      "offset": 28800,
+      "city": "Xiamen",
+      "timezone": "Asia/Shanghai",
+      "longitude": 118.0673,
+      "latitude": 24.4793,
+      "ip": "117.30.120.138",
       "continent_code": "AS"
     },
     "error": null,
@@ -1378,7 +1580,7 @@
     "name": "ip.sb",
     "url": "https://api.ip.sb/geoip/1.1.1.1",
     "status": "success",
-    "elapsed_ms": 196.72,
+    "elapsed_ms": 124.11,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -1395,7 +1597,7 @@
     "name": "ip.sb",
     "url": "https://api.ip.sb/geoip/8.8.8.8",
     "status": "success",
-    "elapsed_ms": 40.69,
+    "elapsed_ms": 13.47,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -1419,7 +1621,7 @@
     "name": "ip2location.io",
     "url": "https://api.ip2location.io/?ip=117.30.120.138",
     "status": "success",
-    "elapsed_ms": 199.74,
+    "elapsed_ms": 140.09,
     "remark": "免费5000次/天",
     "supports_ip": true,
     "result": {
@@ -1444,7 +1646,7 @@
     "name": "ip2location.io",
     "url": "https://api.ip2location.io/?ip=1.1.1.1",
     "status": "success",
-    "elapsed_ms": 13.41,
+    "elapsed_ms": 79.81,
     "remark": "免费5000次/天",
     "supports_ip": true,
     "result": {
@@ -1469,7 +1671,7 @@
     "name": "ip2location.io",
     "url": "https://api.ip2location.io/?ip=8.8.8.8",
     "status": "success",
-    "elapsed_ms": 15.34,
+    "elapsed_ms": 79.87,
     "remark": "免费5000次/天",
     "supports_ip": true,
     "result": {
@@ -1494,7 +1696,7 @@
     "name": "ipapi.co",
     "url": "https://ipapi.co/117.30.120.138/json/",
     "status": "success",
-    "elapsed_ms": 150.79,
+    "elapsed_ms": 96.04,
     "remark": "支持CORS",
     "supports_ip": true,
     "result": {
@@ -1533,7 +1735,7 @@
     "name": "ipapi.co",
     "url": "https://ipapi.co/1.1.1.1/json/",
     "status": "success",
-    "elapsed_ms": 114.8,
+    "elapsed_ms": 44.11,
     "remark": "支持CORS",
     "supports_ip": true,
     "result": {
@@ -1572,7 +1774,7 @@
     "name": "ipapi.co",
     "url": "https://ipapi.co/8.8.8.8/json/",
     "status": "success",
-    "elapsed_ms": 113.88,
+    "elapsed_ms": 48.25,
     "remark": "支持CORS",
     "supports_ip": true,
     "result": {
@@ -1611,7 +1813,7 @@
     "name": "ipapi.com",
     "url": "https://ipapi.com/ip_api.php?ip=117.30.120.138",
     "status": "success",
-    "elapsed_ms": 1463.44,
+    "elapsed_ms": 1115.73,
     "remark": "已失效",
     "supports_ip": true,
     "result": {
@@ -1651,7 +1853,7 @@
       },
       "time_zone": {
         "id": "Asia/Shanghai",
-        "current_time": "2026-06-14T01:09:56+08:00",
+        "current_time": "2026-06-14T04:10:19+08:00",
         "gmt_offset": 28800,
         "code": "CST",
         "is_daylight_saving": false
@@ -1697,7 +1899,7 @@
     "name": "ipapi.com",
     "url": "https://ipapi.com/ip_api.php?ip=1.1.1.1",
     "status": "success",
-    "elapsed_ms": 87.09,
+    "elapsed_ms": 193.14,
     "remark": "已失效",
     "supports_ip": true,
     "result": {
@@ -1737,7 +1939,7 @@
       },
       "time_zone": {
         "id": "America/Denver",
-        "current_time": "2026-06-13T11:10:00-06:00",
+        "current_time": "2026-06-13T14:10:28-06:00",
         "gmt_offset": -21600,
         "code": "MDT",
         "is_daylight_saving": true
@@ -1783,11 +1985,84 @@
     "name": "ipapi.com",
     "url": "https://ipapi.com/ip_api.php?ip=8.8.8.8",
     "status": "success",
-    "elapsed_ms": 14.44,
+    "elapsed_ms": 146.17,
     "remark": "已失效",
     "supports_ip": true,
     "result": {
-      "raw": "{\"ip\": \"8.8.8.8\", \"hostname\": \"dns.google\", \"type\": \"ipv4\", \"continent_code\": \"NA\", \"continent_name\": \"North America\", \"country_code\": \"US\", \"country_name\": \"United States\", \"region_code\": \"CA\", \"region_name\": \"California\", \"city\": \"Mountain View\", \"zip\": \"94041\", \"latitude\": 37.38801956176758, \"longitude\": -122.07431030273438, \"msa\": \"41940\", \"dma\": \"807\", \"radius\": \"0\", \"ip_routing_type\": \"fixed\", \"connection_type\": \"ocx\", \"location\": {\"geoname_id\": 7173909, \"capital\": \"Washington D.C.\", \"lang"
+      "ip": "8.8.8.8",
+      "hostname": "dns.google",
+      "type": "ipv4",
+      "continent_code": "NA",
+      "continent_name": "North America",
+      "country_code": "US",
+      "country_name": "United States",
+      "region_code": "CA",
+      "region_name": "California",
+      "city": "Mountain View",
+      "zip": "94041",
+      "latitude": 37.38801956176758,
+      "longitude": -122.07431030273438,
+      "msa": "41940",
+      "dma": "807",
+      "radius": "0",
+      "ip_routing_type": "fixed",
+      "connection_type": "ocx",
+      "location": {
+        "geoname_id": 7173909,
+        "capital": "Washington D.C.",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English",
+            "native": "English"
+          }
+        ],
+        "country_flag": "https://assets.ipstack.com/flags/us.svg",
+        "country_flag_emoji": "🇺🇸",
+        "country_flag_emoji_unicode": "U+1F1FA U+1F1F8",
+        "calling_code": "1",
+        "is_eu": false
+      },
+      "time_zone": {
+        "id": "America/Los_Angeles",
+        "current_time": "2026-06-13T13:10:34-07:00",
+        "gmt_offset": -25200,
+        "code": "PDT",
+        "is_daylight_saving": true
+      },
+      "currency": {
+        "code": "USD",
+        "name": "US Dollar",
+        "plural": "US dollars",
+        "symbol": "$",
+        "symbol_native": "$"
+      },
+      "connection": {
+        "asn": 15169,
+        "isp": "Google",
+        "sld": null,
+        "tld": null,
+        "carrier": "google",
+        "home": false,
+        "organization_type": "Internet Service Provider",
+        "isic_code": "J6110",
+        "naics_code": "517311"
+      },
+      "security": {
+        "is_proxy": false,
+        "proxy_type": null,
+        "is_crawler": false,
+        "crawler_name": null,
+        "crawler_type": null,
+        "is_tor": false,
+        "threat_level": "low",
+        "threat_types": null,
+        "proxy_last_detected": null,
+        "proxy_level": null,
+        "vpn_service": null,
+        "anonymizer_status": null,
+        "hosting_facility": false
+      }
     },
     "error": null,
     "test_ip": "8.8.8.8"
@@ -1796,7 +2071,7 @@
     "name": "ipapi.is",
     "url": "https://api.ipapi.is/?ip=117.30.120.138",
     "status": "success",
-    "elapsed_ms": 142.83,
+    "elapsed_ms": 227.24,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -1852,13 +2127,13 @@
         "longitude": 118.033,
         "zip": "361000",
         "timezone": "Asia/Shanghai",
-        "local_time": "2026-06-14T01:09:59+08:00",
-        "local_time_unix": 1781370599,
+        "local_time": "2026-06-14T04:10:18+08:00",
+        "local_time_unix": 1781381418,
         "is_dst": false,
         "utcoffset": "+08:00",
         "accuracy": "MEDIUM"
       },
-      "elapsed_ms": 0.97
+      "elapsed_ms": 0.75
     },
     "error": null,
     "test_ip": "117.30.120.138"
@@ -1867,7 +2142,7 @@
     "name": "ipapi.is",
     "url": "https://api.ipapi.is/?ip=1.1.1.1",
     "status": "success",
-    "elapsed_ms": 4.32,
+    "elapsed_ms": 64.59,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -1931,13 +2206,13 @@
         "longitude": 153.02809,
         "zip": "4000",
         "timezone": "Australia/Brisbane",
-        "local_time": "2026-06-14T03:10:10+10:00",
-        "local_time_unix": 1781370610,
+        "local_time": "2026-06-14T06:10:29+10:00",
+        "local_time_unix": 1781381429,
         "is_dst": false,
         "utcoffset": "+10:00",
         "accuracy": "MEDIUM"
       },
-      "elapsed_ms": 0.8
+      "elapsed_ms": 0.55
     },
     "error": null,
     "test_ip": "1.1.1.1"
@@ -1946,7 +2221,7 @@
     "name": "ipapi.is",
     "url": "https://api.ipapi.is/?ip=8.8.8.8",
     "status": "success",
-    "elapsed_ms": 4.03,
+    "elapsed_ms": 64.26,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -2015,13 +2290,13 @@
         "longitude": -122.08385,
         "zip": "95196",
         "timezone": "America/Los_Angeles",
-        "local_time": "2026-06-13T10:10:21-07:00",
-        "local_time_unix": 1781370621,
+        "local_time": "2026-06-13T13:10:39-07:00",
+        "local_time_unix": 1781381439,
         "is_dst": true,
         "utcoffset": "-07:00",
         "accuracy": "HIGH"
       },
-      "elapsed_ms": 0.5
+      "elapsed_ms": 0.26
     },
     "error": null,
     "test_ip": "8.8.8.8"
@@ -2030,20 +2305,20 @@
     "name": "ipbase.com",
     "url": "https://api.ipbase.com/v1/json",
     "status": "success",
-    "elapsed_ms": 518.55,
+    "elapsed_ms": 555.1,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "ip": "20.55.86.48",
+      "ip": "68.220.61.179",
       "country_code": "US",
       "country_name": "United States",
-      "region_code": "US-VA",
-      "region_name": "Virginia",
-      "city": "Washington",
-      "zip_code": "22747",
-      "time_zone": "America/New_York",
-      "latitude": 38.71384811401367,
-      "longitude": -78.15943908691406,
+      "region_code": "US-CA",
+      "region_name": "California",
+      "city": "San Francisco",
+      "zip_code": "94199",
+      "time_zone": "America/Los_Angeles",
+      "latitude": 37.77492904663086,
+      "longitude": -122.41941833496094,
       "metro_code": 0
     },
     "error": null,
@@ -2053,20 +2328,20 @@
     "name": "ipbase.com",
     "url": "https://api.ipbase.com/v1/json",
     "status": "success",
-    "elapsed_ms": 109.36,
+    "elapsed_ms": 184.37,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "ip": "20.55.86.48",
+      "ip": "68.220.61.179",
       "country_code": "US",
       "country_name": "United States",
-      "region_code": "US-VA",
-      "region_name": "Virginia",
-      "city": "Washington",
-      "zip_code": "22747",
-      "time_zone": "America/New_York",
-      "latitude": 38.71384811401367,
-      "longitude": -78.15943908691406,
+      "region_code": "US-CA",
+      "region_name": "California",
+      "city": "San Francisco",
+      "zip_code": "94199",
+      "time_zone": "America/Los_Angeles",
+      "latitude": 37.77492904663086,
+      "longitude": -122.41941833496094,
       "metro_code": 0
     },
     "error": null,
@@ -2076,20 +2351,20 @@
     "name": "ipbase.com",
     "url": "https://api.ipbase.com/v1/json",
     "status": "success",
-    "elapsed_ms": 107.75,
+    "elapsed_ms": 179.88,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "ip": "20.55.86.48",
+      "ip": "68.220.61.179",
       "country_code": "US",
       "country_name": "United States",
-      "region_code": "US-VA",
-      "region_name": "Virginia",
-      "city": "Washington",
-      "zip_code": "22747",
-      "time_zone": "America/New_York",
-      "latitude": 38.71384811401367,
-      "longitude": -78.15943908691406,
+      "region_code": "US-CA",
+      "region_name": "California",
+      "city": "San Francisco",
+      "zip_code": "94199",
+      "time_zone": "America/Los_Angeles",
+      "latitude": 37.77492904663086,
+      "longitude": -122.41941833496094,
       "metro_code": 0
     },
     "error": null,
@@ -2099,7 +2374,7 @@
     "name": "ipinfo.io",
     "url": "https://ipinfo.io/widget/demo/117.30.120.138",
     "status": "success",
-    "elapsed_ms": 689.56,
+    "elapsed_ms": 510.32,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -2157,7 +2432,7 @@
     "name": "ipinfo.io",
     "url": "https://ipinfo.io/widget/demo/1.1.1.1",
     "status": "success",
-    "elapsed_ms": 33.93,
+    "elapsed_ms": 62.16,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -2222,7 +2497,7 @@
     "name": "ipinfo.io",
     "url": "https://ipinfo.io/widget/demo/8.8.8.8",
     "status": "success",
-    "elapsed_ms": 38.72,
+    "elapsed_ms": 60.01,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -2287,11 +2562,11 @@
     "name": "ipquery.io",
     "url": "https://api.ipquery.io/?format=json",
     "status": "success",
-    "elapsed_ms": 600.6,
+    "elapsed_ms": 631.6,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "ip": "20.55.86.48",
+      "ip": "68.220.61.179",
       "isp": {
         "asn": "AS8075",
         "org": "Microsoft Corporation",
@@ -2300,13 +2575,13 @@
       "location": {
         "country": "United States",
         "country_code": "US",
-        "city": "Ashburn",
-        "state": "Virginia",
-        "zipcode": "20149",
-        "latitude": 39.04812861507357,
-        "longitude": -77.46064127546863,
-        "timezone": "America/New_York",
-        "localtime": "2026-06-13T17:09:59"
+        "city": "San Jose",
+        "state": "California",
+        "zipcode": "95141",
+        "latitude": 37.360804219342455,
+        "longitude": -121.88232540179258,
+        "timezone": "America/Los_Angeles",
+        "localtime": "2026-06-13T20:10:19"
       },
       "risk": {
         "is_mobile": false,
@@ -2324,11 +2599,11 @@
     "name": "ipquery.io",
     "url": "https://api.ipquery.io/?format=json",
     "status": "success",
-    "elapsed_ms": 16.61,
+    "elapsed_ms": 77.47,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "ip": "20.55.86.48",
+      "ip": "68.220.61.179",
       "isp": {
         "asn": "AS8075",
         "org": "Microsoft Corporation",
@@ -2337,13 +2612,13 @@
       "location": {
         "country": "United States",
         "country_code": "US",
-        "city": "Ashburn",
-        "state": "Virginia",
-        "zipcode": "20149",
-        "latitude": 39.02931001398844,
-        "longitude": -77.49528407510337,
-        "timezone": "America/New_York",
-        "localtime": "2026-06-13T17:10:10"
+        "city": "San Jose",
+        "state": "California",
+        "zipcode": "95141",
+        "latitude": 37.33996056423102,
+        "longitude": -121.86634721239407,
+        "timezone": "America/Los_Angeles",
+        "localtime": "2026-06-13T20:10:29"
       },
       "risk": {
         "is_mobile": false,
@@ -2361,11 +2636,11 @@
     "name": "ipquery.io",
     "url": "https://api.ipquery.io/?format=json",
     "status": "success",
-    "elapsed_ms": 13.46,
+    "elapsed_ms": 78.84,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "ip": "20.55.86.48",
+      "ip": "68.220.61.179",
       "isp": {
         "asn": "AS8075",
         "org": "Microsoft Corporation",
@@ -2374,13 +2649,13 @@
       "location": {
         "country": "United States",
         "country_code": "US",
-        "city": "Ashburn",
-        "state": "Virginia",
-        "zipcode": "20149",
-        "latitude": 39.02071867372034,
-        "longitude": -77.49266358748184,
-        "timezone": "America/New_York",
-        "localtime": "2026-06-13T17:10:21"
+        "city": "San Jose",
+        "state": "California",
+        "zipcode": "95141",
+        "latitude": 37.34021745068135,
+        "longitude": -121.91161783471576,
+        "timezone": "America/Los_Angeles",
+        "localtime": "2026-06-13T20:10:39"
       },
       "risk": {
         "is_mobile": false,
@@ -2398,7 +2673,7 @@
     "name": "ipwhois.app",
     "url": "https://ipwhois.app/json/117.30.120.138?format=json",
     "status": "success",
-    "elapsed_ms": 95.98,
+    "elapsed_ms": 133.49,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -2428,7 +2703,7 @@
       "currency": "Chinese Yuan",
       "currency_code": "CNY",
       "currency_symbol": "¥",
-      "currency_rates": 6.769,
+      "currency_rates": 6.773,
       "currency_plural": "Chinese yuan"
     },
     "error": null,
@@ -2438,7 +2713,7 @@
     "name": "ipwhois.app",
     "url": "https://ipwhois.app/json/1.1.1.1?format=json",
     "status": "success",
-    "elapsed_ms": 13.14,
+    "elapsed_ms": 10.44,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -2468,7 +2743,7 @@
       "currency": "Australian Dollar",
       "currency_code": "AUD",
       "currency_symbol": "$",
-      "currency_rates": 1.42,
+      "currency_rates": 1.419,
       "currency_plural": "Australian dollars"
     },
     "error": null,
@@ -2478,7 +2753,7 @@
     "name": "ipwhois.app",
     "url": "https://ipwhois.app/json/8.8.8.8?format=json",
     "status": "success",
-    "elapsed_ms": 11.86,
+    "elapsed_ms": 9.25,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -2518,7 +2793,7 @@
     "name": "iqiyi.mesh",
     "url": "https://mesh.if.iqiyi.com/aid/ip/info?ip=117.30.120.138",
     "status": "success",
-    "elapsed_ms": 1516.05,
+    "elapsed_ms": 1189.17,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -2533,7 +2808,7 @@
     "name": "iqiyi.mesh",
     "url": "https://mesh.if.iqiyi.com/aid/ip/info?ip=1.1.1.1",
     "status": "success",
-    "elapsed_ms": 585.8,
+    "elapsed_ms": 256.05,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -2548,7 +2823,7 @@
     "name": "iqiyi.mesh",
     "url": "https://mesh.if.iqiyi.com/aid/ip/info?ip=8.8.8.8",
     "status": "success",
-    "elapsed_ms": 551.46,
+    "elapsed_ms": 244.85,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -2563,7 +2838,7 @@
     "name": "meitu.webapi",
     "url": "https://webapi-pc.meitu.com/common/ip_location?ip=117.30.120.138",
     "status": "success",
-    "elapsed_ms": 1794.21,
+    "elapsed_ms": 1324.22,
     "remark": "已失效",
     "supports_ip": true,
     "result": {
@@ -2576,7 +2851,7 @@
     "name": "meitu.webapi",
     "url": "https://webapi-pc.meitu.com/common/ip_location?ip=1.1.1.1",
     "status": "success",
-    "elapsed_ms": 454.38,
+    "elapsed_ms": 334.37,
     "remark": "已失效",
     "supports_ip": true,
     "result": {
@@ -2589,7 +2864,7 @@
     "name": "meitu.webapi",
     "url": "https://webapi-pc.meitu.com/common/ip_location?ip=8.8.8.8",
     "status": "success",
-    "elapsed_ms": 272.45,
+    "elapsed_ms": 340.47,
     "remark": "已失效",
     "supports_ip": true,
     "result": {
@@ -2599,20 +2874,59 @@
     "test_ip": "8.8.8.8"
   },
   {
+    "name": "my.ipinfo.app",
+    "url": "https://ipv4.my.ipinfo.app/api/ipDetails.php",
+    "status": "http_404",
+    "elapsed_ms": 325.92,
+    "remark": "",
+    "supports_ip": false,
+    "result": {
+      "raw": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/ipDetails.php</pre>\n</body>\n</html>\n"
+    },
+    "error": null,
+    "test_ip": "117.30.120.138"
+  },
+  {
+    "name": "my.ipinfo.app",
+    "url": "https://ipv4.my.ipinfo.app/api/ipDetails.php",
+    "status": "http_404",
+    "elapsed_ms": 50.76,
+    "remark": "",
+    "supports_ip": false,
+    "result": {
+      "raw": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/ipDetails.php</pre>\n</body>\n</html>\n"
+    },
+    "error": null,
+    "test_ip": "1.1.1.1"
+  },
+  {
+    "name": "my.ipinfo.app",
+    "url": "https://ipv4.my.ipinfo.app/api/ipDetails.php",
+    "status": "http_404",
+    "elapsed_ms": 50.78,
+    "remark": "",
+    "supports_ip": false,
+    "result": {
+      "raw": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/ipDetails.php</pre>\n</body>\n</html>\n"
+    },
+    "error": null,
+    "test_ip": "8.8.8.8"
+  },
+  {
     "name": "myip.ipip.net",
     "url": "https://myip.ipip.net/json",
     "status": "success",
-    "elapsed_ms": 1300.19,
+    "elapsed_ms": 496.76,
     "remark": "",
     "supports_ip": false,
     "result": {
       "ret": "ok",
       "data": {
-        "ip": "20.55.86.48",
+        "ip": "68.220.61.179",
         "location": [
           "美国",
-          "弗吉尼亚州",
-          "斯特灵",
+          "加利福尼亚州",
+          "圣何塞",
           "",
           "microsoft.com"
         ]
@@ -2625,17 +2939,17 @@
     "name": "myip.ipip.net",
     "url": "https://myip.ipip.net/json",
     "status": "success",
-    "elapsed_ms": 716.56,
+    "elapsed_ms": 126.73,
     "remark": "",
     "supports_ip": false,
     "result": {
       "ret": "ok",
       "data": {
-        "ip": "20.55.86.48",
+        "ip": "68.220.61.179",
         "location": [
           "美国",
-          "弗吉尼亚州",
-          "斯特灵",
+          "加利福尼亚州",
+          "圣何塞",
           "",
           "microsoft.com"
         ]
@@ -2648,17 +2962,17 @@
     "name": "myip.ipip.net",
     "url": "https://myip.ipip.net/json",
     "status": "success",
-    "elapsed_ms": 308.24,
+    "elapsed_ms": 118.92,
     "remark": "",
     "supports_ip": false,
     "result": {
       "ret": "ok",
       "data": {
-        "ip": "20.55.86.48",
+        "ip": "68.220.61.179",
         "location": [
           "美国",
-          "弗吉尼亚州",
-          "斯特灵",
+          "加利福尼亚州",
+          "圣何塞",
           "",
           "microsoft.com"
         ]
@@ -2671,13 +2985,13 @@
     "name": "news.qq",
     "url": "https://i.news.qq.com/api/ip2city",
     "status": "success",
-    "elapsed_ms": 1328.74,
+    "elapsed_ms": 788.26,
     "remark": "",
     "supports_ip": false,
     "result": {
       "ret": 0,
       "errMsg": "",
-      "ip": "43.174.154.43",
+      "ip": "43.152.14.26",
       "provcode": "32",
       "citycode": "",
       "country": "中国香港",
@@ -2695,13 +3009,13 @@
     "name": "news.qq",
     "url": "https://i.news.qq.com/api/ip2city",
     "status": "success",
-    "elapsed_ms": 220.74,
+    "elapsed_ms": 186.99,
     "remark": "",
     "supports_ip": false,
     "result": {
       "ret": 0,
       "errMsg": "",
-      "ip": "43.174.130.151",
+      "ip": "43.152.15.38",
       "provcode": "32",
       "citycode": "",
       "country": "中国香港",
@@ -2719,13 +3033,13 @@
     "name": "news.qq",
     "url": "https://i.news.qq.com/api/ip2city",
     "status": "success",
-    "elapsed_ms": 226.64,
+    "elapsed_ms": 178.52,
     "remark": "",
     "supports_ip": false,
     "result": {
       "ret": 0,
       "errMsg": "",
-      "ip": "43.174.130.40",
+      "ip": "43.152.24.21",
       "provcode": "32",
       "citycode": "",
       "country": "中国香港",
@@ -2743,7 +3057,7 @@
     "name": "pconline",
     "url": "https://whois.pconline.com.cn/ipJson.jsp?ip=117.30.120.138&json=true",
     "status": "success",
-    "elapsed_ms": 1775.98,
+    "elapsed_ms": 2361.77,
     "remark": "返回GBK编码",
     "supports_ip": true,
     "result": {
@@ -2756,7 +3070,7 @@
     "name": "pconline",
     "url": "https://whois.pconline.com.cn/ipJson.jsp?ip=1.1.1.1&json=true",
     "status": "success",
-    "elapsed_ms": 308.31,
+    "elapsed_ms": 248.59,
     "remark": "返回GBK编码",
     "supports_ip": true,
     "result": {
@@ -2769,7 +3083,7 @@
     "name": "pconline",
     "url": "https://whois.pconline.com.cn/ipJson.jsp?ip=8.8.8.8&json=true",
     "status": "success",
-    "elapsed_ms": 307.14,
+    "elapsed_ms": 248.73,
     "remark": "返回GBK编码",
     "supports_ip": true,
     "result": {
@@ -2779,16 +3093,55 @@
     "test_ip": "8.8.8.8"
   },
   {
+    "name": "qjqq.cn",
+    "url": "https://api.qjqq.cn/api/Local?ip=117.30.120.138",
+    "status": "http_512",
+    "elapsed_ms": 2356.91,
+    "remark": "已失效",
+    "supports_ip": true,
+    "result": {
+      "raw": "<!DOCTYPE html>\n<html lang=\"zh-CN\">\n<head>\n    <meta charset=\"UTF-8\" />\n    <title>套餐已到期 - WAF-PRO</title>\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge,chrome=1\" />\n    <meta name=\"robots\" content=\"noindex, nofollow\" />\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n\n    <style>\n        *, *::before, *::after {\n            box-sizing: border-box;\n            margin: 0;\n            padding: 0;\n        }\n        html, body { height: 100%; }\n\n        body {\n   "
+    },
+    "error": null,
+    "test_ip": "117.30.120.138"
+  },
+  {
+    "name": "qjqq.cn",
+    "url": "https://api.qjqq.cn/api/Local?ip=1.1.1.1",
+    "status": "http_512",
+    "elapsed_ms": 216.36,
+    "remark": "已失效",
+    "supports_ip": true,
+    "result": {
+      "raw": "<!DOCTYPE html>\n<html lang=\"zh-CN\">\n<head>\n    <meta charset=\"UTF-8\" />\n    <title>套餐已到期 - WAF-PRO</title>\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge,chrome=1\" />\n    <meta name=\"robots\" content=\"noindex, nofollow\" />\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n\n    <style>\n        *, *::before, *::after {\n            box-sizing: border-box;\n            margin: 0;\n            padding: 0;\n        }\n        html, body { height: 100%; }\n\n        body {\n   "
+    },
+    "error": null,
+    "test_ip": "1.1.1.1"
+  },
+  {
+    "name": "qjqq.cn",
+    "url": "https://api.qjqq.cn/api/Local?ip=8.8.8.8",
+    "status": "http_512",
+    "elapsed_ms": 214.81,
+    "remark": "已失效",
+    "supports_ip": true,
+    "result": {
+      "raw": "<!DOCTYPE html>\n<html lang=\"zh-CN\">\n<head>\n    <meta charset=\"UTF-8\" />\n    <title>套餐已到期 - WAF-PRO</title>\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge,chrome=1\" />\n    <meta name=\"robots\" content=\"noindex, nofollow\" />\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n\n    <style>\n        *, *::before, *::after {\n            box-sizing: border-box;\n            margin: 0;\n            padding: 0;\n        }\n        html, body { height: 100%; }\n\n        body {\n   "
+    },
+    "error": null,
+    "test_ip": "8.8.8.8"
+  },
+  {
     "name": "qq.inews",
     "url": "https://r.inews.qq.com/api/ip2city",
     "status": "success",
-    "elapsed_ms": 751.9,
+    "elapsed_ms": 494.21,
     "remark": "",
     "supports_ip": false,
     "result": {
       "ret": 0,
       "errMsg": "",
-      "ip": "43.174.130.13",
+      "ip": "43.152.23.25",
       "provcode": "32",
       "citycode": "",
       "country": "中国香港",
@@ -2806,13 +3159,13 @@
     "name": "qq.inews",
     "url": "https://r.inews.qq.com/api/ip2city",
     "status": "success",
-    "elapsed_ms": 220.19,
+    "elapsed_ms": 166.25,
     "remark": "",
     "supports_ip": false,
     "result": {
       "ret": 0,
       "errMsg": "",
-      "ip": "43.174.154.43",
+      "ip": "43.152.23.25",
       "provcode": "32",
       "citycode": "",
       "country": "中国香港",
@@ -2830,13 +3183,13 @@
     "name": "qq.inews",
     "url": "https://r.inews.qq.com/api/ip2city",
     "status": "success",
-    "elapsed_ms": 218.0,
+    "elapsed_ms": 169.72,
     "remark": "",
     "supports_ip": false,
     "result": {
       "ret": 0,
       "errMsg": "",
-      "ip": "43.174.154.177",
+      "ip": "43.152.24.19",
       "provcode": "32",
       "citycode": "",
       "country": "中国香港",
@@ -2854,15 +3207,15 @@
     "name": "qq.video",
     "url": "https://vv.video.qq.com/checktime?otype=ojson",
     "status": "success",
-    "elapsed_ms": 420.79,
+    "elapsed_ms": 777.09,
     "remark": "",
     "supports_ip": false,
     "result": {
       "s": "o",
-      "t": 1781370599,
-      "ip": "23.202.158.83",
+      "t": 1781381419,
+      "ip": "23.47.121.207",
       "pos": "---",
-      "rand": "kylNA3YBeT7r0vVu-byxaQ=="
+      "rand": "_gTmDNXkGdzwSITdCA5n6w=="
     },
     "error": null,
     "test_ip": "117.30.120.138"
@@ -2871,15 +3224,15 @@
     "name": "qq.video",
     "url": "https://vv.video.qq.com/checktime?otype=ojson",
     "status": "success",
-    "elapsed_ms": 196.34,
+    "elapsed_ms": 435.33,
     "remark": "",
     "supports_ip": false,
     "result": {
       "s": "o",
-      "t": 1781370610,
-      "ip": "23.47.121.210",
+      "t": 1781381429,
+      "ip": "23.202.34.109",
       "pos": "---",
-      "rand": "FsspUJekxSo3qZYlu6O6zw=="
+      "rand": "yyOO53hkP_fp_r3HquEmBA=="
     },
     "error": null,
     "test_ip": "1.1.1.1"
@@ -2888,15 +3241,15 @@
     "name": "qq.video",
     "url": "https://vv.video.qq.com/checktime?otype=ojson",
     "status": "success",
-    "elapsed_ms": 193.81,
+    "elapsed_ms": 149.6,
     "remark": "",
     "supports_ip": false,
     "result": {
       "s": "o",
-      "t": 1781370621,
-      "ip": "23.202.158.83",
+      "t": 1781381439,
+      "ip": "23.202.34.109",
       "pos": "---",
-      "rand": "bBU3IBwbZwzvgL6Vleudpw=="
+      "rand": "JmSOOyryrWO1HU1E1QySgw=="
     },
     "error": null,
     "test_ip": "8.8.8.8"
@@ -2905,7 +3258,7 @@
     "name": "realip.cc",
     "url": "https://realip.cc/?ip=117.30.120.138",
     "status": "success",
-    "elapsed_ms": 222.4,
+    "elapsed_ms": 220.75,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -2926,7 +3279,7 @@
       "blog": "https://www.bboy.app",
       "tg_group": "https://t.me/bboyapp",
       "data_updatetime": 20260601,
-      "count": 955994115
+      "count": 956275073
     },
     "error": null,
     "test_ip": "117.30.120.138"
@@ -2935,7 +3288,7 @@
     "name": "realip.cc",
     "url": "https://realip.cc/?ip=1.1.1.1",
     "status": "success",
-    "elapsed_ms": 86.87,
+    "elapsed_ms": 31.78,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -2956,7 +3309,7 @@
       "blog": "https://www.bboy.app",
       "tg_group": "https://t.me/bboyapp",
       "data_updatetime": 20260601,
-      "count": 955994348
+      "count": 956275330
     },
     "error": null,
     "test_ip": "1.1.1.1"
@@ -2965,7 +3318,7 @@
     "name": "realip.cc",
     "url": "https://realip.cc/?ip=8.8.8.8",
     "status": "success",
-    "elapsed_ms": 126.54,
+    "elapsed_ms": 72.49,
     "remark": "",
     "supports_ip": true,
     "result": {
@@ -2986,21 +3339,54 @@
       "blog": "https://www.bboy.app",
       "tg_group": "https://t.me/bboyapp",
       "data_updatetime": 20260601,
-      "count": 955994616
+      "count": 956275564
     },
     "error": null,
+    "test_ip": "8.8.8.8"
+  },
+  {
+    "name": "test.ipw.cn",
+    "url": "https://test.ipw.cn/api/ip/myip?json",
+    "status": "error",
+    "elapsed_ms": 448.88,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "Cannot connect to host test.ipw.cn:443 ssl:default [No address associated with hostname]",
+    "test_ip": "117.30.120.138"
+  },
+  {
+    "name": "test.ipw.cn",
+    "url": "https://test.ipw.cn/api/ip/myip?json",
+    "status": "error",
+    "elapsed_ms": 367.46,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "Cannot connect to host test.ipw.cn:443 ssl:default [No address associated with hostname]",
+    "test_ip": "1.1.1.1"
+  },
+  {
+    "name": "test.ipw.cn",
+    "url": "https://test.ipw.cn/api/ip/myip?json",
+    "status": "error",
+    "elapsed_ms": 277.01,
+    "remark": "",
+    "supports_ip": false,
+    "result": null,
+    "error": "Cannot connect to host test.ipw.cn:443 ssl:default [No address associated with hostname]",
     "test_ip": "8.8.8.8"
   },
   {
     "name": "torproject",
     "url": "https://check.torproject.org/api/ip",
     "status": "success",
-    "elapsed_ms": 864.66,
+    "elapsed_ms": 939.53,
     "remark": "",
     "supports_ip": false,
     "result": {
       "IsTor": false,
-      "IP": "20.55.86.48"
+      "IP": "68.220.61.179"
     },
     "error": null,
     "test_ip": "117.30.120.138"
@@ -3009,12 +3395,12 @@
     "name": "torproject",
     "url": "https://check.torproject.org/api/ip",
     "status": "success",
-    "elapsed_ms": 303.48,
+    "elapsed_ms": 523.26,
     "remark": "",
     "supports_ip": false,
     "result": {
       "IsTor": false,
-      "IP": "20.55.86.48"
+      "IP": "68.220.61.179"
     },
     "error": null,
     "test_ip": "1.1.1.1"
@@ -3023,30 +3409,129 @@
     "name": "torproject",
     "url": "https://check.torproject.org/api/ip",
     "status": "success",
-    "elapsed_ms": 304.77,
+    "elapsed_ms": 542.09,
     "remark": "",
     "supports_ip": false,
     "result": {
       "IsTor": false,
-      "IP": "20.55.86.48"
+      "IP": "68.220.61.179"
     },
     "error": null,
+    "test_ip": "8.8.8.8"
+  },
+  {
+    "name": "uomg.com",
+    "url": "https://api.uomg.com/api/visitor.info?skey=1",
+    "status": "error",
+    "elapsed_ms": 10697.12,
+    "remark": "已失效",
+    "supports_ip": false,
+    "result": null,
+    "error": "Cannot connect to host api.uomg.com:443 ssl:default [Temporary failure in name resolution]",
+    "test_ip": "117.30.120.138"
+  },
+  {
+    "name": "uomg.com",
+    "url": "https://api.uomg.com/api/visitor.info?skey=1",
+    "status": "error",
+    "elapsed_ms": 10014.19,
+    "remark": "已失效",
+    "supports_ip": false,
+    "result": null,
+    "error": "Cannot connect to host api.uomg.com:443 ssl:default [Temporary failure in name resolution]",
+    "test_ip": "1.1.1.1"
+  },
+  {
+    "name": "uomg.com",
+    "url": "https://api.uomg.com/api/visitor.info?skey=1",
+    "status": "error",
+    "elapsed_ms": 7417.02,
+    "remark": "已失效",
+    "supports_ip": false,
+    "result": null,
+    "error": "Cannot connect to host api.uomg.com:443 ssl:default [Temporary failure in name resolution]",
+    "test_ip": "8.8.8.8"
+  },
+  {
+    "name": "useragentinfo",
+    "url": "https://ip.useragentinfo.com/json",
+    "status": "error",
+    "elapsed_ms": 786.92,
+    "remark": "已失效",
+    "supports_ip": false,
+    "result": null,
+    "error": "Cannot connect to host ip.useragentinfo.com:443 ssl:default [Name or service not known]",
+    "test_ip": "117.30.120.138"
+  },
+  {
+    "name": "useragentinfo",
+    "url": "https://ip.useragentinfo.com/json",
+    "status": "error",
+    "elapsed_ms": 24.43,
+    "remark": "已失效",
+    "supports_ip": false,
+    "result": null,
+    "error": "Cannot connect to host ip.useragentinfo.com:443 ssl:default [Name or service not known]",
+    "test_ip": "1.1.1.1"
+  },
+  {
+    "name": "useragentinfo",
+    "url": "https://ip.useragentinfo.com/json",
+    "status": "error",
+    "elapsed_ms": 23.79,
+    "remark": "已失效",
+    "supports_ip": false,
+    "result": null,
+    "error": "Cannot connect to host ip.useragentinfo.com:443 ssl:default [Name or service not known]",
+    "test_ip": "8.8.8.8"
+  },
+  {
+    "name": "vore.top",
+    "url": "https://api.vore.top/api/IPdata?ip=117.30.120.138",
+    "status": "error",
+    "elapsed_ms": 1123.3,
+    "remark": "已失效",
+    "supports_ip": true,
+    "result": null,
+    "error": "Cannot connect to host api.vore.top:443 ssl:default [Name or service not known]",
+    "test_ip": "117.30.120.138"
+  },
+  {
+    "name": "vore.top",
+    "url": "https://api.vore.top/api/IPdata?ip=1.1.1.1",
+    "status": "error",
+    "elapsed_ms": 194.53,
+    "remark": "已失效",
+    "supports_ip": true,
+    "result": null,
+    "error": "Cannot connect to host api.vore.top:443 ssl:default [Name or service not known]",
+    "test_ip": "1.1.1.1"
+  },
+  {
+    "name": "vore.top",
+    "url": "https://api.vore.top/api/IPdata?ip=8.8.8.8",
+    "status": "error",
+    "elapsed_ms": 208.78,
+    "remark": "已失效",
+    "supports_ip": true,
+    "result": null,
+    "error": "Cannot connect to host api.vore.top:443 ssl:default [Name or service not known]",
     "test_ip": "8.8.8.8"
   },
   {
     "name": "wtfismyip.com",
     "url": "https://wtfismyip.com/json",
     "status": "success",
-    "elapsed_ms": 556.16,
+    "elapsed_ms": 647.68,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "YourFuckingIPAddress": "20.55.86.48",
-      "YourFuckingLocation": "Washington, VA, United States",
-      "YourFuckingHostname": "20.55.86.48",
+      "YourFuckingIPAddress": "68.220.61.179",
+      "YourFuckingLocation": "San Jose, CA, United States",
+      "YourFuckingHostname": "68.220.61.179",
       "YourFuckingISP": "Microsoft Corporation",
       "YourFuckingTorExit": false,
-      "YourFuckingCity": "Washington",
+      "YourFuckingCity": "San Jose",
       "YourFuckingCountry": "United States",
       "YourFuckingCountryCode": "US"
     },
@@ -3057,16 +3542,16 @@
     "name": "wtfismyip.com",
     "url": "https://wtfismyip.com/json",
     "status": "success",
-    "elapsed_ms": 52.87,
+    "elapsed_ms": 22.53,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "YourFuckingIPAddress": "20.55.86.48",
-      "YourFuckingLocation": "Washington, VA, United States",
-      "YourFuckingHostname": "20.55.86.48",
+      "YourFuckingIPAddress": "68.220.61.179",
+      "YourFuckingLocation": "San Jose, CA, United States",
+      "YourFuckingHostname": "68.220.61.179",
       "YourFuckingISP": "Microsoft Corporation",
       "YourFuckingTorExit": false,
-      "YourFuckingCity": "Washington",
+      "YourFuckingCity": "San Jose",
       "YourFuckingCountry": "United States",
       "YourFuckingCountryCode": "US"
     },
@@ -3077,16 +3562,16 @@
     "name": "wtfismyip.com",
     "url": "https://wtfismyip.com/json",
     "status": "success",
-    "elapsed_ms": 52.89,
+    "elapsed_ms": 22.27,
     "remark": "",
     "supports_ip": false,
     "result": {
-      "YourFuckingIPAddress": "20.55.86.48",
-      "YourFuckingLocation": "Washington, VA, United States",
-      "YourFuckingHostname": "20.55.86.48",
+      "YourFuckingIPAddress": "68.220.61.179",
+      "YourFuckingLocation": "San Jose, CA, United States",
+      "YourFuckingHostname": "68.220.61.179",
       "YourFuckingISP": "Microsoft Corporation",
       "YourFuckingTorExit": false,
-      "YourFuckingCity": "Washington",
+      "YourFuckingCity": "San Jose",
       "YourFuckingCountry": "United States",
       "YourFuckingCountryCode": "US"
     },
