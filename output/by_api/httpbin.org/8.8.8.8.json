@@ -1,11 +1,13 @@
 {
   "name": "httpbin.org",
   "url": "http://httpbin.org/ip",
-  "status": "timeout",
-  "elapsed_ms": 10359.62,
+  "status": "success",
+  "elapsed_ms": 7.01,
   "remark": "",
   "supports_ip": false,
-  "result": null,
-  "error": "请求超时",
+  "result": {
+    "origin": "145.132.103.17"
+  },
+  "error": null,
   "test_ip": "8.8.8.8"
 }
