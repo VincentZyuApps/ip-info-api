@@ -1,11 +1,13 @@
 {
   "name": "httpbin.org",
   "url": "http://httpbin.org/ip",
-  "status": "timeout",
-  "elapsed_ms": 10986.95,
+  "status": "http_503",
+  "elapsed_ms": 55.27,
   "remark": "",
   "supports_ip": false,
-  "result": null,
-  "error": "请求超时",
+  "result": {
+    "raw": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body>\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n</body>\r\n</html>\r\n"
+  },
+  "error": null,
   "test_ip": "8.8.8.8"
 }
