@@ -2,7 +2,7 @@
   "name": "ipinfo.io",
   "url": "https://ipinfo.io/widget/demo/1.1.1.1",
   "status": "success",
-  "elapsed_ms": 45.2,
+  "elapsed_ms": 51.99,
   "remark": "",
   "supports_ip": true,
   "result": {
@@ -37,13 +37,28 @@
         }
       },
       "privacy": {
-        "vpn": false,
+        "vpn": true,
         "proxy": false,
         "tor": false,
         "relay": false,
         "hosting": true,
-        "service": "",
-        "provider": null
+        "service": "ovpnpw",
+        "confidence": 3,
+        "coverage": 1,
+        "census": false,
+        "census_ports": "",
+        "device_activity": false,
+        "inferred": false,
+        "vpn_config": true,
+        "whois": false,
+        "first_seen": "2026-07-15",
+        "last_seen": "2026-07-15",
+        "provider": {
+          "confidence": "high",
+          "network": "1.1.1.1/32",
+          "vpn_id": "ovpnpw",
+          "vpn_name": "ovpnpw"
+        }
       },
       "abuse": {
         "address": "PO Box 3646, South Brisbane, QLD 4101, Australia",
