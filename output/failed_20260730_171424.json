@@ -3,13 +3,13 @@
     "name": "baidu.qifu",
     "url": "https://qifu-api.baidubce.com/ip/local/geo/v1/district",
     "status": "http_404",
-    "elapsed_ms": 2923.57,
+    "elapsed_ms": 3061.43,
     "remark": "已失效",
     "supports_ip": false,
     "result": {
       "message": "Resource not found.",
       "code": "ResourceNotFound",
-      "requestId": "5866cbb5-1747-417e-8fca-6de65cb55b6d"
+      "requestId": "7b3125fc-b8f8-4bef-b45b-d398f877c3f5"
     },
     "error": null,
     "test_ip": "117.30.120.138"
@@ -18,13 +18,13 @@
     "name": "baidu.qifu",
     "url": "https://qifu-api.baidubce.com/ip/local/geo/v1/district",
     "status": "http_404",
-    "elapsed_ms": 221.41,
+    "elapsed_ms": 255.55,
     "remark": "已失效",
     "supports_ip": false,
     "result": {
       "message": "Resource not found.",
       "code": "ResourceNotFound",
-      "requestId": "d3a66a84-e4c8-42e3-8993-34d3ee033b2d"
+      "requestId": "5efcbc4e-acc9-43cb-9f85-0223391384f7"
     },
     "error": null,
     "test_ip": "1.1.1.1"
@@ -33,13 +33,13 @@
     "name": "baidu.qifu",
     "url": "https://qifu-api.baidubce.com/ip/local/geo/v1/district",
     "status": "http_404",
-    "elapsed_ms": 224.31,
+    "elapsed_ms": 256.23,
     "remark": "已失效",
     "supports_ip": false,
     "result": {
       "message": "Resource not found.",
       "code": "ResourceNotFound",
-      "requestId": "f0afe884-61b2-45b3-9a0d-ac977d00bec2"
+      "requestId": "552141fa-e83e-49af-95f3-fe25f0978dd3"
     },
     "error": null,
     "test_ip": "8.8.8.8"
@@ -48,7 +48,7 @@
     "name": "bilibili",
     "url": "https://api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo",
     "status": "http_412",
-    "elapsed_ms": 862.85,
+    "elapsed_ms": 1390.08,
     "remark": "",
     "supports_ip": false,
     "result": {
@@ -61,7 +61,7 @@
     "name": "bilibili",
     "url": "https://api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo",
     "status": "http_412",
-    "elapsed_ms": 176.73,
+    "elapsed_ms": 229.23,
     "remark": "",
     "supports_ip": false,
     "result": {
@@ -74,20 +74,31 @@
     "name": "bilibili",
     "url": "https://api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo",
     "status": "http_412",
-    "elapsed_ms": 176.71,
+    "elapsed_ms": 228.17,
     "remark": "",
     "supports_ip": false,
     "result": {
       "raw": "<!DOCTYPE html>\n<html lang=\"zh-cn\">\n\n<head>\n    <meta http-equiv=\"Access-Control-Allow-Origin\" content=\"*\" />\n    <meta http-equiv=\"Page-Enter\" content=\"blendTrans(Duration=0.5)\">\n    <meta http-equiv=\"Page-Exit\" content=\"blendTrans(Duration=0.5)\">\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n    <meta name=\"spm_prefix\" content=\"333.937\">\n "
     },
     "error": null,
+    "test_ip": "8.8.8.8"
+  },
+  {
+    "name": "cip.cc",
+    "url": "http://www.cip.cc/8.8.8.8",
+    "status": "timeout",
+    "elapsed_ms": 10062.76,
+    "remark": "返回文本格式",
+    "supports_ip": true,
+    "result": null,
+    "error": "请求超时",
     "test_ip": "8.8.8.8"
   },
   {
     "name": "csdn.searchplugin",
     "url": "https://searchplugin.csdn.net/api/v1/ip/get?ip=117.30.120.138",
     "status": "http_403",
-    "elapsed_ms": 1364.29,
+    "elapsed_ms": 1933.32,
     "remark": "已失效",
     "supports_ip": true,
     "result": {
@@ -100,7 +111,7 @@
     "name": "csdn.searchplugin",
     "url": "https://searchplugin.csdn.net/api/v1/ip/get?ip=1.1.1.1",
     "status": "http_403",
-    "elapsed_ms": 210.72,
+    "elapsed_ms": 256.33,
     "remark": "已失效",
     "supports_ip": true,
     "result": {
@@ -113,7 +124,7 @@
     "name": "csdn.searchplugin",
     "url": "https://searchplugin.csdn.net/api/v1/ip/get?ip=8.8.8.8",
     "status": "http_403",
-    "elapsed_ms": 210.57,
+    "elapsed_ms": 256.62,
     "remark": "已失效",
     "supports_ip": true,
     "result": {
@@ -123,49 +134,10 @@
     "test_ip": "8.8.8.8"
   },
   {
-    "name": "httpbin.org",
-    "url": "http://httpbin.org/ip",
-    "status": "http_503",
-    "elapsed_ms": 235.03,
-    "remark": "",
-    "supports_ip": false,
-    "result": {
-      "raw": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body>\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n</body>\r\n</html>\r\n"
-    },
-    "error": null,
-    "test_ip": "117.30.120.138"
-  },
-  {
-    "name": "httpbin.org",
-    "url": "http://httpbin.org/ip",
-    "status": "http_503",
-    "elapsed_ms": 57.2,
-    "remark": "",
-    "supports_ip": false,
-    "result": {
-      "raw": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body>\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n</body>\r\n</html>\r\n"
-    },
-    "error": null,
-    "test_ip": "1.1.1.1"
-  },
-  {
-    "name": "httpbin.org",
-    "url": "http://httpbin.org/ip",
-    "status": "http_503",
-    "elapsed_ms": 57.29,
-    "remark": "",
-    "supports_ip": false,
-    "result": {
-      "raw": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body>\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n</body>\r\n</html>\r\n"
-    },
-    "error": null,
-    "test_ip": "8.8.8.8"
-  },
-  {
     "name": "ip-api.io",
     "url": "https://ip-api.io/json?ip=117.30.120.138",
     "status": "http_401",
-    "elapsed_ms": 1271.68,
+    "elapsed_ms": 1342.86,
     "remark": "已失效",
     "supports_ip": true,
     "result": {
@@ -178,7 +150,7 @@
     "name": "ip-api.io",
     "url": "https://ip-api.io/json?ip=1.1.1.1",
     "status": "http_401",
-    "elapsed_ms": 158.85,
+    "elapsed_ms": 94.93,
     "remark": "已失效",
     "supports_ip": true,
     "result": {
@@ -191,7 +163,7 @@
     "name": "ip-api.io",
     "url": "https://ip-api.io/json?ip=8.8.8.8",
     "status": "http_401",
-    "elapsed_ms": 158.31,
+    "elapsed_ms": 94.77,
     "remark": "已失效",
     "supports_ip": true,
     "result": {
@@ -204,7 +176,7 @@
     "name": "ip.cn",
     "url": "https://www.ip.cn/api/index?ip=117.30.120.138&type=0",
     "status": "error",
-    "elapsed_ms": 1133.64,
+    "elapsed_ms": 1315.31,
     "remark": "已失效",
     "supports_ip": true,
     "result": null,
@@ -215,7 +187,7 @@
     "name": "ip.cn",
     "url": "https://www.ip.cn/api/index?ip=1.1.1.1&type=0",
     "status": "error",
-    "elapsed_ms": 41.09,
+    "elapsed_ms": 5.78,
     "remark": "已失效",
     "supports_ip": true,
     "result": null,
@@ -226,7 +198,7 @@
     "name": "ip.cn",
     "url": "https://www.ip.cn/api/index?ip=8.8.8.8&type=0",
     "status": "error",
-    "elapsed_ms": 41.56,
+    "elapsed_ms": 6.21,
     "remark": "已失效",
     "supports_ip": true,
     "result": null,
@@ -234,62 +206,10 @@
     "test_ip": "8.8.8.8"
   },
   {
-    "name": "ipapi.co",
-    "url": "https://ipapi.co/117.30.120.138/json/",
-    "status": "http_429",
-    "elapsed_ms": 91.86,
-    "remark": "支持CORS",
-    "supports_ip": true,
-    "result": {
-      "raw": "Please contact us for a trial account or sign up for a paid plan at https://ipapi.co/pricing "
-    },
-    "error": null,
-    "test_ip": "117.30.120.138"
-  },
-  {
-    "name": "ipapi.co",
-    "url": "https://ipapi.co/1.1.1.1/json/",
-    "status": "http_429",
-    "elapsed_ms": 14.68,
-    "remark": "支持CORS",
-    "supports_ip": true,
-    "result": {
-      "raw": "Please contact us for a trial account or sign up for a paid plan at https://ipapi.co/pricing "
-    },
-    "error": null,
-    "test_ip": "1.1.1.1"
-  },
-  {
-    "name": "ipapi.co",
-    "url": "https://ipapi.co/8.8.8.8/json/",
-    "status": "http_429",
-    "elapsed_ms": 18.5,
-    "remark": "支持CORS",
-    "supports_ip": true,
-    "result": {
-      "raw": "Please contact us for a trial account or sign up for a paid plan at https://ipapi.co/pricing "
-    },
-    "error": null,
-    "test_ip": "8.8.8.8"
-  },
-  {
-    "name": "iqiyi.mesh",
-    "url": "https://mesh.if.iqiyi.com/aid/ip/info?ip=8.8.8.8",
-    "status": "http_504",
-    "elapsed_ms": 3193.31,
-    "remark": "",
-    "supports_ip": true,
-    "result": {
-      "raw": "<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n<hr><center>nginx/1.15.8</center>\r\n</body>\r\n</html>\r\n"
-    },
-    "error": null,
-    "test_ip": "8.8.8.8"
-  },
-  {
     "name": "my.ipinfo.app",
     "url": "https://ipv4.my.ipinfo.app/api/ipDetails.php",
     "status": "http_404",
-    "elapsed_ms": 376.58,
+    "elapsed_ms": 395.26,
     "remark": "",
     "supports_ip": false,
     "result": {
@@ -302,7 +222,7 @@
     "name": "my.ipinfo.app",
     "url": "https://ipv4.my.ipinfo.app/api/ipDetails.php",
     "status": "http_404",
-    "elapsed_ms": 35.31,
+    "elapsed_ms": 39.03,
     "remark": "",
     "supports_ip": false,
     "result": {
@@ -315,7 +235,7 @@
     "name": "my.ipinfo.app",
     "url": "https://ipv4.my.ipinfo.app/api/ipDetails.php",
     "status": "http_404",
-    "elapsed_ms": 35.1,
+    "elapsed_ms": 39.72,
     "remark": "",
     "supports_ip": false,
     "result": {
@@ -328,7 +248,7 @@
     "name": "qjqq.cn",
     "url": "https://api.qjqq.cn/api/Local?ip=117.30.120.138",
     "status": "error",
-    "elapsed_ms": 3799.59,
+    "elapsed_ms": 4530.35,
     "remark": "已失效",
     "supports_ip": true,
     "result": null,
@@ -339,7 +259,7 @@
     "name": "qjqq.cn",
     "url": "https://api.qjqq.cn/api/Local?ip=1.1.1.1",
     "status": "error",
-    "elapsed_ms": 2375.33,
+    "elapsed_ms": 2887.64,
     "remark": "已失效",
     "supports_ip": true,
     "result": null,
@@ -350,7 +270,7 @@
     "name": "qjqq.cn",
     "url": "https://api.qjqq.cn/api/Local?ip=8.8.8.8",
     "status": "error",
-    "elapsed_ms": 3056.9,
+    "elapsed_ms": 3490.87,
     "remark": "已失效",
     "supports_ip": true,
     "result": null,
@@ -361,7 +281,7 @@
     "name": "test.ipw.cn",
     "url": "https://test.ipw.cn/api/ip/myip?json",
     "status": "error",
-    "elapsed_ms": 536.7,
+    "elapsed_ms": 680.07,
     "remark": "",
     "supports_ip": false,
     "result": null,
@@ -372,7 +292,7 @@
     "name": "test.ipw.cn",
     "url": "https://test.ipw.cn/api/ip/myip?json",
     "status": "error",
-    "elapsed_ms": 207.1,
+    "elapsed_ms": 727.48,
     "remark": "",
     "supports_ip": false,
     "result": null,
@@ -383,7 +303,7 @@
     "name": "test.ipw.cn",
     "url": "https://test.ipw.cn/api/ip/myip?json",
     "status": "error",
-    "elapsed_ms": 377.83,
+    "elapsed_ms": 738.8,
     "remark": "",
     "supports_ip": false,
     "result": null,
@@ -394,7 +314,7 @@
     "name": "uomg.com",
     "url": "https://api.uomg.com/api/visitor.info?skey=1",
     "status": "timeout",
-    "elapsed_ms": 10638.82,
+    "elapsed_ms": 10705.03,
     "remark": "已失效",
     "supports_ip": false,
     "result": null,
@@ -405,7 +325,7 @@
     "name": "uomg.com",
     "url": "https://api.uomg.com/api/visitor.info?skey=1",
     "status": "error",
-    "elapsed_ms": 22.8,
+    "elapsed_ms": 126.51,
     "remark": "已失效",
     "supports_ip": false,
     "result": null,
@@ -416,7 +336,7 @@
     "name": "uomg.com",
     "url": "https://api.uomg.com/api/visitor.info?skey=1",
     "status": "error",
-    "elapsed_ms": 10008.35,
+    "elapsed_ms": 10014.84,
     "remark": "已失效",
     "supports_ip": false,
     "result": null,
@@ -427,7 +347,7 @@
     "name": "useragentinfo",
     "url": "https://ip.useragentinfo.com/json",
     "status": "error",
-    "elapsed_ms": 742.53,
+    "elapsed_ms": 999.67,
     "remark": "已失效",
     "supports_ip": false,
     "result": null,
@@ -438,7 +358,7 @@
     "name": "useragentinfo",
     "url": "https://ip.useragentinfo.com/json",
     "status": "error",
-    "elapsed_ms": 45.89,
+    "elapsed_ms": 28.89,
     "remark": "已失效",
     "supports_ip": false,
     "result": null,
@@ -449,7 +369,7 @@
     "name": "useragentinfo",
     "url": "https://ip.useragentinfo.com/json",
     "status": "error",
-    "elapsed_ms": 52.48,
+    "elapsed_ms": 87.72,
     "remark": "已失效",
     "supports_ip": false,
     "result": null,
@@ -460,7 +380,7 @@
     "name": "vore.top",
     "url": "https://api.vore.top/api/IPdata?ip=117.30.120.138",
     "status": "error",
-    "elapsed_ms": 1547.4,
+    "elapsed_ms": 1321.99,
     "remark": "已失效",
     "supports_ip": true,
     "result": null,
@@ -471,7 +391,7 @@
     "name": "vore.top",
     "url": "https://api.vore.top/api/IPdata?ip=1.1.1.1",
     "status": "error",
-    "elapsed_ms": 255.17,
+    "elapsed_ms": 522.08,
     "remark": "已失效",
     "supports_ip": true,
     "result": null,
@@ -482,7 +402,7 @@
     "name": "vore.top",
     "url": "https://api.vore.top/api/IPdata?ip=8.8.8.8",
     "status": "error",
-    "elapsed_ms": 264.0,
+    "elapsed_ms": 298.65,
     "remark": "已失效",
     "supports_ip": true,
     "result": null,
