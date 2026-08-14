@@ -1,13 +1,11 @@
 {
   "name": "geolocation-db.com",
   "url": "https://geolocation-db.com/json",
-  "status": "success",
-  "elapsed_ms": 503.57,
+  "status": "error",
+  "elapsed_ms": 317.0,
   "remark": "",
   "supports_ip": false,
-  "result": {
-    "raw": "{\"country_code\":\"US\",\"country_name\":\"United States\",\"city\":null,\"postal\":null,\"latitude\":37.751,\"longitude\":-97.822,\"IPv4\":\"20.106.183.53\",\"state\":null}"
-  },
-  "error": null,
+  "result": null,
+  "error": "Cannot connect to host geolocation-db.com:443 ssl:default [Connection reset by peer]",
   "test_ip": "8.8.8.8"
 }
