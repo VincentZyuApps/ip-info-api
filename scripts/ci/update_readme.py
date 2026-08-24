@@ -5,7 +5,21 @@ import json
 import re
 from pathlib import Path
 
+import yaml
+
 REPOSITORY_ROOT = Path(__file__).resolve().parents[2]
+TEST_CONFIG_PATH = REPOSITORY_ROOT / "scripts" / "ci" / "test-config.yml"
+
+
+def load_test_ips() -> list[str]:
+    """加载API监控使用的测试IP地址。"""
+    with open(TEST_CONFIG_PATH, "r", encoding="utf-8") as f:
+        config = yaml.safe_load(f) or {}
+
+    test_ips = config.get("test_ips")
+    if not isinstance(test_ips, list) or not all(isinstance(ip, str) for ip in test_ips):
+        raise ValueError(f"{TEST_CONFIG_PATH} 中的 test_ips 必须是字符串列表")
+    return test_ips
 
 # API配置 (名称, 支持IP查询, 分类, URL模板)
 # 分类: 1=可查询本机IP和通过IP查询信息, 2=只可查询本机IP, 3=只可通过IP查询, 4=已失效
@@ -400,7 +414,7 @@ def generate_readme_table() -> str:
     update_time_utc = utc_time.strftime("%Y-%m-%d %H:%M")
     update_time_cst = utc_time.astimezone(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M")
 
-    test_ips = ["117.30.120.138", "1.1.1.1", "8.8.8.8", "223.5.5.5", "9.9.9.9"]
+    test_ips = load_test_ips()
     test_ip = test_ips[0]
     test_ips_str = ", ".join(test_ips)
 

@@ -2,7 +2,7 @@
 # https://docs.astral.sh/uv/getting-started/installation/
 # https://gitee.com/wangnov/uv-custom/releases
 uv venv
-uv pip install aiohttp
+uv pip install aiohttp PyYAML
 
 uv run python ./test/test_apis.py
 uv run python ./test/test_apis.py -c

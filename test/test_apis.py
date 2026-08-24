@@ -2,11 +2,12 @@
 # https://docs.astral.sh/uv/getting-started/installation/
 # https://gitee.com/wangnov/uv-custom/releases
 uv venv
-uv pip install aiohttp
+uv pip install aiohttp PyYAML
 uv run python ./test/test_apis.py
 """
 # 第三方库
 import aiohttp
+import yaml
 
 # 标准库
 import os
@@ -18,14 +19,22 @@ import asyncio
 import argparse
 from pathlib import Path
 
-# 测试用的IP地址
-TEST_IPS = [
-    "117.30.120.138", # 🇨🇳 中国福建厦门集美
-    "1.1.1.1",        # 🇦🇺 澳大利亚
-    "8.8.8.8",        # 🇺🇸 美国
-    "223.5.5.5",      # 🇨🇳 中国
-    "9.9.9.9",        # 🇺🇸 美国
-]
+REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
+TEST_CONFIG_PATH = REPOSITORY_ROOT / "scripts" / "ci" / "test-config.yml"
+
+
+def load_test_ips() -> list[str]:
+    """加载API监控使用的测试IP地址。"""
+    with open(TEST_CONFIG_PATH, "r", encoding="utf-8") as f:
+        config = yaml.safe_load(f) or {}
+
+    test_ips = config.get("test_ips")
+    if not isinstance(test_ips, list) or not all(isinstance(ip, str) for ip in test_ips):
+        raise ValueError(f"{TEST_CONFIG_PATH} 中的 test_ips 必须是字符串列表")
+    return test_ips
+
+
+TEST_IPS = load_test_ips()
 
 # 所有API列表 (从README中提取)
 # 格式: (名称, URL模板, 请求类型, 是否支持查询指定IP, 备注)
@@ -158,7 +167,7 @@ async def run_tests(concurrency, include_deprecated, verbose, clear):
     print("=" * 80)
     
     # 创建输出目录
-    output_dir = Path(__file__).parent.parent / "output"
+    output_dir = REPOSITORY_ROOT / "output"
     output_dir.mkdir(exist_ok=True)
     
     # 清空output目录（JSON文件）
