@@ -407,10 +407,10 @@ def generate_readme_table() -> str:
     # 定义分类顺序
     category_order = [1, 2, 3, 4]
     category_names = {
-        1: "支持查询指定IP的API",
-        2: "仅查询本机IP的API",
-        3: "仅支持查询指定IP的API",
-        4: "已失效的API",
+        1: "🔎 支持查询指定IP的API",
+        2: "📍 仅查询本机IP的API",
+        3: "🎯 仅支持查询指定IP的API",
+        4: "⚠️ 已失效的API",
     }
 
     output_lines = []
