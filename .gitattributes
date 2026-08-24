@@ -1,5 +1,5 @@
 # Include Markdown documentation in GitHub Linguist language statistics.
-*.md linguist-language=Markdown linguist-detectable=true linguist-documentation=false
-*.yml linguist-language=YAML linguist-detectable=true
-*.yaml linguist-language=YAML linguist-detectable=true
-*.sh linguist-language=Shell linguist-detectable=true
+*.md linguist-language=Markdown linguist-detectable -linguist-documentation -linguist-generated -linguist-vendored
+*.yml linguist-language=YAML linguist-detectable -linguist-documentation -linguist-generated -linguist-vendored
+*.yaml linguist-language=YAML linguist-detectable -linguist-documentation -linguist-generated -linguist-vendored
+*.sh linguist-language=Shell linguist-detectable -linguist-documentation -linguist-generated -linguist-vendored
