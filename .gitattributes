@@ -3,3 +3,8 @@
 *.yml linguist-language=YAML linguist-detectable -linguist-documentation -linguist-generated -linguist-vendored
 *.yaml linguist-language=YAML linguist-detectable -linguist-documentation -linguist-generated -linguist-vendored
 *.sh linguist-language=Shell linguist-detectable -linguist-documentation -linguist-generated -linguist-vendored
+
+# GitHub Linguist vendors the .github directory by default; include workflows.
+.github/workflows/*.yml linguist-language=YAML linguist-detectable -linguist-documentation -linguist-generated -linguist-vendored
+.github/workflows/*.yaml linguist-language=YAML linguist-detectable -linguist-documentation -linguist-generated -linguist-vendored
+.github/workflows/*.sh linguist-language=Shell linguist-detectable -linguist-documentation -linguist-generated -linguist-vendored
