@@ -2,11 +2,8 @@
 # https://docs.astral.sh/uv/getting-started/installation/
 # https://gitee.com/wangnov/uv-custom/releases
 uv venv
-uv pip sync /dev/null --allow-empty-requirements
-# uv pip sync NUL --allow-empty-requirements
 uv pip install aiohttp
-uv pip freeze > ./requirements.txt
-uv run ./test_apis.py
+uv run python ./test/test_apis.py
 """
 # 第三方库
 import aiohttp
@@ -23,9 +20,11 @@ from pathlib import Path
 
 # 测试用的IP地址
 TEST_IPS = [
-    "117.30.120.138", # 中国 福建厦门集美
-    "1.1.1.1",        # 澳大利亚
-    "8.8.8.8",        # 美国
+    "117.30.120.138", # 🇨🇳 中国福建厦门集美
+    "1.1.1.1",        # 🇦🇺 澳大利亚
+    "8.8.8.8",        # 🇺🇸 美国
+    "223.5.5.5",      # 🇨🇳 中国
+    "9.9.9.9",        # 🇺🇸 美国
 ]
 
 # 所有API列表 (从README中提取)
@@ -44,6 +43,8 @@ APIS = [
     ("freeipapi.com", "https://freeipapi.com/api/json/{ip}", "GET", True, ""),
     ("ipwhois.app", "https://ipwhois.app/json/{ip}?format=json", "GET", True, ""),
     ("ip.nc.gy", "https://ip.nc.gy/json?ip={ip}", "GET", True, ""),
+    ("ipdata.info", "https://ipdata.info/json/{ip}", "GET", True, ""),
+    ("ipwtf.com", "https://ipwtf.com/api/whois/{ip}", "GET", True, ""),
     ("geojs.io", "https://get.geojs.io/v1/ip/geo/{ip}.json", "GET", True, ""),
     ("baidu.opendata", "https://opendata.baidu.com/api.php?co=&resource_id=6006&oe=utf8&query={ip}", "GET", True, ""),
     
@@ -68,12 +69,14 @@ APIS = [
     ("bilibili", "https://api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo", "GET", False, ""),
     ("news.qq", "https://i.news.qq.com/api/ip2city", "GET", False, ""),
     ("gdt.qq", "https://ipv4.gdt.qq.com/get_client_ip", "GET", False, "返回纯文本"),
+    ("uapis.cn", "https://uapis.cn/api/v1/network/myip", "GET", False, ""),
     ("cip.cc", "http://www.cip.cc/{ip}", "GET", True, "返回文本格式"),
     
     # === 3. 只可通过IP查询 ===
     ("ipinfo.io", "https://ipinfo.io/widget/demo/{ip}", "GET", True, ""),
     ("db-ip.demo", "https://db-ip.com/demo/home.php?s={ip}", "GET", True, ""),
     ("iqiyi.mesh", "https://mesh.if.iqiyi.com/aid/ip/info?ip={ip}", "GET", True, ""),
+    ("ip9.com.cn", "https://ip9.com.cn/get?ip={ip}", "GET", True, ""),
 ]
 
 # 已失效的API (也包含在测试中，方便手动验证)

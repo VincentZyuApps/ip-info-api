@@ -127,6 +127,10 @@
 
 [https://ip.nc.gy/json](#address-1.19)
 
+[https://ipdata.info/json](#address-1.20)
+
+[https://ipwtf.com/api/whois](#address-1.21)
+
 2.只可查询本机(访客)IP信息
 
 [https://ip.useragentinfo.com/json](#address-2.1)  **(已失效)**
@@ -179,6 +183,8 @@
 
 [https://ipv4.gdt.qq.com/get_client_ip](#address-2.25)
 
+[https://uapis.cn/api/v1/network/myip](#address-2.26)
+
 3.只可通过IP查询信息
 
 [http://opendata.baidu.com/api.php?co=&resource_id=6006&oe=utf8&query=](#address-3.1) 
@@ -192,6 +198,8 @@
 [https://db-ip.com/demo/home.php?s=121.8.215.106](#address-3.5) 
 
 [https://mesh.if.iqiyi.com/aid/ip/info?version=1.1.1&ip=121.8.215.106](#address-3.6)  **(已失效)**
+
+[https://ip9.com.cn/get?ip=121.8.215.106](#address-3.7)
 
 4.[根据地区反查IP信息](#address-4.1) 
 
@@ -1180,6 +1188,147 @@ https://ip.nc.gy/json?ip=45.77.77.77
 
 &emsp;
 
+**地址20**：https://ipdata.info/json <a name="address-1.20"></a>
+
+请求类型：GET
+
+请求参数(可选)：路径参数(ip)
+
+CORS跨域支持：是
+
+请求示例：
+
+```
+# 查询本机ip
+https://ipdata.info/json
+
+# 通过ip查询信息
+https://ipdata.info/json/121.8.215.106
+```
+
+示例结果：
+
+```
+{
+  "ip": "121.8.215.106",
+  "success": true,
+  "type": "IPv4",
+  "continent": "Asia",
+  "continent_code": "AS",
+  "country": "China",
+  "country_code": "CN",
+  "region": "Guangdong",
+  "region_code": "GD",
+  "city": "Guangzhou",
+  "latitude": 23.1181,
+  "longitude": 113.2539,
+  "is_eu": false,
+  "timezone": "Asia/Shanghai",
+  "zip": "510030",
+  "postal": "510030",
+  "calling_code": "86",
+  "capital": "Beijing",
+  "borders": "AF,BT,MM,HK,IN,KZ,NP,KP,KG,LA,MO,MN,PK,RU,TJ,VN",
+  "asn": 4134,
+  "asn_org": "Chinanet",
+  "isp": "",
+  "registry": "APNIC",
+  "is_proxy": false,
+  "is_hosting": false,
+  "network": {
+    "asn": 4134,
+    "as_name": "Chinanet",
+    "route": "121.8.192.0/18",
+    "registry_country": "CN",
+    "last_changed": null,
+    "is_proxy": null,
+    "proxy_type": null,
+    "usage_type": null
+  },
+  "flag": {
+    "img": "https://ipdata.info/flags/cn.svg",
+    "emoji": "🇨🇳",
+    "emoji_unicode": "U+1F1E8 U+1F1F3"
+  },
+  "connection": {
+    "asn": 4134,
+    "org": "Chinanet"
+  },
+  "time_zone": {
+    "id": "Asia/Shanghai",
+    "abbr": "CST",
+    "is_dst": false,
+    "offset": 28800,
+    "utc": "+08:00",
+    "current_time": "2026-07-07T01:03:45+08:00"
+  },
+  "currency": {
+    "name": "Chinese yuan",
+    "code": "CNY",
+    "symbol": "¥"
+  },
+  "security": {
+    "anonymous": false,
+    "proxy": false,
+    "vpn": false,
+    "tor": false,
+    "hosting": false
+  }
+}
+```
+
+&emsp;
+
+**地址21**：https://ipwtf.com/api/whois <a name="address-1.21"></a>
+
+请求类型：GET
+
+请求参数(可选)：路径参数(ip)
+
+CORS跨域支持：否
+
+请求示例：
+
+```
+# 查询本机ip
+https://ipwtf.com/api/whois
+
+# 通过ip查询信息
+https://ipwtf.com/api/whois/121.8.215.106
+
+# 支持格式(format)：json(默认)、xml、csv、line
+https://ipwtf.com/api/whois/121.8.215.106?format=csv
+```
+
+示例结果：
+
+```
+{
+    "ipv4": {
+        "ip": "121.8.215.106",
+        "ipNumber": "2030622570",
+        "ipVersion": 4,
+        "countryName": "China",
+        "countryCode": "CN",
+        "latitude": 23.127361,
+        "longitude": 113.264572,
+        "timeZone": "+08:00",
+        "zipCode": "510030",
+        "cityName": "Guangzhou",
+        "regionName": "Guangdong",
+        "as": "Asia Pacific Network Information Centre",
+        "asn": "4134",
+        "isProxy": 1,
+        "proxyType": "PUB",
+        "lastSeen": "1",
+        "usageType": "ISP/MOB",
+        "domain": "chinatelecom.com.cn"
+    }
+}
+```
+
+&emsp;
+
 <a name="address-2.1"></a>
 
 ### 2.仅查询本机IP信息
@@ -2052,6 +2201,42 @@ https://ipv4.gdt.qq.com/get_client_ip
 
 &emsp;
 
+**地址26**: https://uapis.cn/api/v1/network/myip <a name="address-2.26"></a>
+
+请求类型：GET
+
+请求参数（可选）：source（值为 `commercial` 时返回更完整的位置信息）
+
+CORS跨域支持：是
+
+请求示例：
+
+```
+# 标准查询
+https://uapis.cn/api/v1/network/myip
+
+# 使用商业数据源
+https://uapis.cn/api/v1/network/myip?source=commercial
+```
+
+示例结果：
+
+```
+{
+  "ip": "23.132.203.77",
+  "beginip": "23.132.203.0",
+  "endip": "23.132.203.255",
+  "region": "美国 California Los Angeles",
+  "isp": "ATT-INTERNET4",
+  "asn": "AS7018",
+  "llc": "美国电话电报公司",
+  "latitude": 34.05223,
+  "longitude": -118.24368
+}
+```
+
+&emsp;
+
 <a name="address-3.1"></a>
 
 ### 3.只可通过IP查询 
@@ -2390,6 +2575,48 @@ https://mesh.if.iqiyi.com/aid/ip/info?version=1.1.1&ip=121.8.215.106
 ```
 
 当ip参数值为空时，查询的是请求者的地址信息。
+
+&emsp;
+
+**地址⑦**：https://ip9.com.cn/get?ip=121.8.215.106 <a name="address-3.7"></a>
+
+请求类型：GET
+
+请求参数：ip=查询的ip地址
+
+CORS跨域支持：否
+
+请求示例：
+
+```
+https://ip9.com.cn/get?ip=121.8.215.106
+```
+
+示例结果：
+
+```
+{
+  "ret": 200,
+  "data": {
+    "ip": "121.8.215.106",
+    "country": "中国",
+    "country_code": "cn",
+    "prov": "广东",
+    "city": "广州",
+    "city_code": "guangzhou",
+    "city_short_code": "gz",
+    "area": "增城",
+    "post_code": "511300",
+    "area_code": "020",
+    "isp": "中国电信",
+    "lng": "113.83",
+    "lat": "23.29",
+    "long_ip": 2030622570,
+    "big_area": "华南"
+  },
+  "qt": 0.001
+}
+```
 
 &emsp;
 

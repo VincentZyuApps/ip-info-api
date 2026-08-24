@@ -39,20 +39,17 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd test
           uv venv
           uv pip install aiohttp
 
       - name: Run API tests
         run: |
-          cd test
-          uv run python test_apis.py \
+          uv run python ./test/test_apis.py \
             -c 32 -v --clear --deprecated
 
       - name: Update README with API status
         run: |
-          cd test
-          uv run python ../.github/update_readme.py
+          uv run python ./scripts/ci/update_readme.py
 
       - name: Commit and push changes
         run: |

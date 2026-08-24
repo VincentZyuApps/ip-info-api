@@ -23,8 +23,8 @@ git commit -m "[skip ci] update readme"
 ## 输出说明
 
 CI运行后会：
-1. 执行 `python test_apis.py -c 32 -v --clear` 测试所有API
-2. 更新 `README.md` 中的API状态表格
+1. 从仓库根目录执行 `uv run python ./test/test_apis.py -c 32 -v --clear`，使用5个测试IP测试所有API
+2. 执行 `uv run python ./scripts/ci/update_readme.py` 更新 `README.md` 中的API状态表格
 3. 生成测试结果JSON文件到 `output/` 目录
 
 ## 本地开发流程

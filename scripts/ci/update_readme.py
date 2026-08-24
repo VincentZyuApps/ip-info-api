@@ -5,6 +5,8 @@ import json
 import re
 from pathlib import Path
 
+REPOSITORY_ROOT = Path(__file__).resolve().parents[2]
+
 # API配置 (名称, 支持IP查询, 分类, URL模板)
 # 分类: 1=可查询本机IP和通过IP查询信息, 2=只可查询本机IP, 3=只可通过IP查询, 4=已失效
 API_CONFIG = {
@@ -80,6 +82,18 @@ API_CONFIG = {
         "supports_ip": True,
         "category": 1,
         "url": "https://ip.nc.gy/json?ip={ip}",
+    },
+    "ipdata.info": {
+        "name": "ipdata.info",
+        "supports_ip": True,
+        "category": 1,
+        "url": "https://ipdata.info/json/{ip}",
+    },
+    "ipwtf.com": {
+        "name": "ipwtf.com",
+        "supports_ip": True,
+        "category": 1,
+        "url": "https://ipwtf.com/api/whois/{ip}",
     },
     "geojs.io": {
         "name": "geojs.io",
@@ -214,6 +228,12 @@ API_CONFIG = {
         "category": 2,
         "url": "https://ipv4.gdt.qq.com/get_client_ip",
     },
+    "uapis.cn": {
+        "name": "uapis.cn",
+        "supports_ip": False,
+        "category": 2,
+        "url": "https://uapis.cn/api/v1/network/myip",
+    },
     "cip.cc": {
         "name": "cip.cc",
         "supports_ip": True,
@@ -238,6 +258,12 @@ API_CONFIG = {
         "supports_ip": True,
         "category": 3,
         "url": "https://mesh.if.iqiyi.com/aid/ip/info?ip={ip}",
+    },
+    "ip9.com.cn": {
+        "name": "ip9.com.cn",
+        "supports_ip": True,
+        "category": 3,
+        "url": "https://ip9.com.cn/get?ip={ip}",
     },
     # === 4. 已失效的API ===
     "meitu.webapi": {
@@ -305,7 +331,7 @@ API_CONFIG = {
 
 def get_api_status(api_name: str) -> dict:
     """获取API状态"""
-    api_dir = Path(__file__).parent.parent / "output" / "by_api" / api_name
+    api_dir = REPOSITORY_ROOT / "output" / "by_api" / api_name
     if not api_dir.exists():
         return {
             "status": "unknown",
@@ -374,7 +400,7 @@ def generate_readme_table() -> str:
     update_time_utc = utc_time.strftime("%Y-%m-%d %H:%M")
     update_time_cst = utc_time.astimezone(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M")
 
-    test_ips = ["117.30.120.138", "1.1.1.1", "8.8.8.8"]
+    test_ips = ["117.30.120.138", "1.1.1.1", "8.8.8.8", "223.5.5.5", "9.9.9.9"]
     test_ip = test_ips[0]
     test_ips_str = ", ".join(test_ips)
 
@@ -428,7 +454,7 @@ def generate_readme_table() -> str:
 
 def update_readme():
     """更新README文件"""
-    readme_path = Path(__file__).parent.parent / "README.md"
+    readme_path = REPOSITORY_ROOT / "README.md"
 
     with open(readme_path, "r", encoding="utf-8") as f:
         content = f.read()
