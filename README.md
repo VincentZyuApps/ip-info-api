@@ -10,7 +10,7 @@
 > 测试IP: 117.30.120.138, 1.1.1.1, 8.8.8.8, 223.5.5.5, 9.9.9.9
 
 
-### 支持查询指定IP的API
+### 🔎 支持查询指定IP的API
 
 | 测试 | API | 状态 | 平均响应 | 成功率 | 详情 |
 |------|-----|------|---------|--------|------|
@@ -31,7 +31,7 @@
 | [![geojs.io](https://img.shields.io/website?url=https%3A%2F%2Fget.geojs.io%2Fv1%2Fip%2Fgeo%2F117.30.120.138.json&label=geojs.io)](https://get.geojs.io/v1/ip/geo/117.30.120.138.json) | geojs.io | ✅ | 37.47ms | 5/5 | [📁 查看](output/by_api/geojs.io/) |
 | [![baidu.opendata](https://img.shields.io/website?url=https%3A%2F%2Fopendata.baidu.com%2Fapi.php%3Fco%3D%26resource_id%3D6006%26oe%3Dutf8%26query%3D117.30.120.138&label=baidu.opendata)](https://opendata.baidu.com/api.php?co=&resource_id=6006&oe=utf8&query=117.30.120.138) | baidu.opendata | ✅ | 518.88ms | 5/5 | [📁 查看](output/by_api/baidu.opendata/) |
 
-### 仅查询本机IP的API
+### 📍 仅查询本机IP的API
 
 | 测试 | API | 状态 | 平均响应 | 成功率 | 详情 |
 |------|-----|------|---------|--------|------|
@@ -58,7 +58,7 @@
 | [![uapis.cn](https://img.shields.io/website?url=https%3A%2F%2Fuapis.cn%2Fapi%2Fv1%2Fnetwork%2Fmyip&label=uapis.cn)](https://uapis.cn/api/v1/network/myip) | uapis.cn | ✅ | 937.08ms | 5/5 | [📁 查看](output/by_api/uapis.cn/) |
 | [![cip.cc](https://img.shields.io/website?url=http%3A%2F%2Fwww.cip.cc%2F117.30.120.138&label=cip.cc)](http://www.cip.cc/117.30.120.138) | cip.cc | ✅ | 458.35ms | 5/5 | [📁 查看](output/by_api/cip.cc/) |
 
-### 仅支持查询指定IP的API
+### 🎯 仅支持查询指定IP的API
 
 | 测试 | API | 状态 | 平均响应 | 成功率 | 详情 |
 |------|-----|------|---------|--------|------|
@@ -67,7 +67,7 @@
 | [![iqiyi.mesh](https://img.shields.io/website?url=https%3A%2F%2Fmesh.if.iqiyi.com%2Faid%2Fip%2Finfo%3Fip%3D117.30.120.138&label=iqiyi.mesh)](https://mesh.if.iqiyi.com/aid/ip/info?ip=117.30.120.138) | iqiyi.mesh | ✅ | 542.31ms | 5/5 | [📁 查看](output/by_api/iqiyi.mesh/) |
 | [![ip9.com.cn](https://img.shields.io/website?url=https%3A%2F%2Fip9.com.cn%2Fget%3Fip%3D117.30.120.138&label=ip9.com.cn)](https://ip9.com.cn/get?ip=117.30.120.138) | ip9.com.cn | ✅ | 322.11ms | 5/5 | [📁 查看](output/by_api/ip9.com.cn/) |
 
-### 已失效的API
+### ⚠️ 已失效的API
 
 | 测试 | API | 状态 | 平均响应 | 成功率 | 详情 |
 |------|-----|------|---------|--------|------|
@@ -83,13 +83,13 @@
 | [![ipapi.com](https://img.shields.io/website?url=https%3A%2F%2Fipapi.com%2Fip_api.php%3Fip%3D117.30.120.138&label=ipapi.com)](https://ipapi.com/ip_api.php?ip=117.30.120.138) | ipapi.com | ✅ | 286.44ms | 5/5 | [📁 查看](output/by_api/ipapi.com/) |
 <!-- API_STATUS_END -->
 
-# 说明
+# 📖 说明
 
 该存储库收集了各种免费的IP查询API，无需配置任何key直接可访问，使大家能够快速访问IP信息，如地理位置、ISP详细信息和网络类型。请根据自己的需求选择合适的API，持续更新中，欢迎star和pr
 
 &emsp;
 
-### API列表
+### 📋 API列表
 
 1.可查询本机IP和通过IP查询信息
 
@@ -212,7 +212,7 @@
 &emsp;
 <a name="address-1.1"></a>
 
-### 1.查询本机IP或通过IP反查
+### 🌐 1.查询本机IP或通过IP反查
 
 **地址①**：https://webapi-pc.meitu.com/common/ip_location?ip=  **(已失效)**
 
@@ -1335,7 +1335,7 @@ https://ipwtf.com/api/whois/121.8.215.106?format=csv
 
 <a name="address-2.1"></a>
 
-### 2.仅查询本机IP信息
+### 📡 2.仅查询本机IP信息
 
 **地址①**：https://ip.useragentinfo.com/json  **(已失效)**
 
@@ -2243,7 +2243,7 @@ https://uapis.cn/api/v1/network/myip?source=commercial
 
 <a name="address-3.1"></a>
 
-### 3.只可通过IP查询 
+### 🔍 3.只可通过IP查询
 
 **地址①**：http://opendata.baidu.com/api.php?co=&resource_id=6006&oe=utf8&query=
 
@@ -2626,7 +2626,7 @@ https://ip9.com.cn/get?ip=121.8.215.106
 
 <a name="address-4.1"></a>
 
-### 4.根据地区反查IP信息
+### 🗺️ 4.根据地区反查IP信息
 
 根据地区名称或者经纬度查询IP信息
 
@@ -2688,7 +2688,7 @@ https://nominatim.openstreetmap.org/search?format=json&lat=22.5317523&lon=113.97
 
 <a name="address-5.1"></a>
 
-### 5.更多
+### ➕ 5.更多
 
 1.只返回本机(访客)IP地址，通过curl访问测试 
 
