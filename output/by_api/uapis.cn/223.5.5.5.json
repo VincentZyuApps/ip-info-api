@@ -1,20 +1,13 @@
 {
   "name": "uapis.cn",
   "url": "https://uapis.cn/api/v1/network/myip",
-  "status": "success",
-  "elapsed_ms": 341.53,
+  "status": "http_429",
+  "elapsed_ms": 241.67,
   "remark": "",
   "supports_ip": false,
   "result": {
-    "ip": "172.178.119.38",
-    "beginip": "172.178.0.0",
-    "endip": "172.178.127.255",
-    "region": "美国 Virginia Washington",
-    "isp": "MICROSOFT-CORP-MSN-AS-BLOCK",
-    "asn": "AS8075",
-    "llc": "微软",
-    "latitude": 38.713848,
-    "longitude": -78.159439
+    "code": 429,
+    "message": "Too many requests, please try again later."
   },
   "error": null,
   "test_ip": "223.5.5.5"
