@@ -1,20 +1,11 @@
 {
   "name": "ifconfig.me",
   "url": "https://ifconfig.me/all.json",
-  "status": "success",
-  "elapsed_ms": 457.14,
+  "status": "error",
+  "elapsed_ms": 725.59,
   "remark": "",
   "supports_ip": false,
-  "result": {
-    "ip_addr": "20.168.100.243",
-    "user_agent": "Python/3.11 aiohttp/3.14.3",
-    "port": "53826",
-    "method": "GET",
-    "encoding": "gzip, deflate",
-    "mime": "*/*",
-    "via": "1.1 google",
-    "forwarded": "20.168.100.243,34.160.111.145"
-  },
-  "error": null,
+  "result": null,
+  "error": "Cannot connect to host ifconfig.me:443 ssl:default [Connection reset by peer]",
   "test_ip": "117.30.120.138"
 }
