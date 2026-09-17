@@ -2,13 +2,14 @@
   "name": "db-ip.demo",
   "url": "https://db-ip.com/demo/home.php?s=1.1.1.1",
   "status": "success",
-  "elapsed_ms": 52.18,
+  "elapsed_ms": 185.54,
   "remark": "",
   "supports_ip": true,
   "result": {
     "status": "ok",
     "demoInfo": {
-      "error": "over query limit, please try again later"
+      "errorCode": "OVER_QUERY_LIMIT",
+      "error": "maximum number of queries per day exceeded"
     }
   },
   "error": null,
