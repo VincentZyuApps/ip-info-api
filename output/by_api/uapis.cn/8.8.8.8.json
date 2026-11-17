@@ -1,11 +1,15 @@
 {
   "name": "uapis.cn",
   "url": "https://uapis.cn/api/v1/network/myip",
-  "status": "timeout",
-  "elapsed_ms": 10965.86,
+  "status": "http_429",
+  "elapsed_ms": 225.57,
   "remark": "",
   "supports_ip": false,
-  "result": null,
-  "error": "请求超时",
+  "result": {
+    "code": 429,
+    "message": "Too many requests, please try again later.",
+    "reason": "adaptive-concurrency-gate"
+  },
+  "error": null,
   "test_ip": "8.8.8.8"
 }
