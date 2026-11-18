@@ -1,11 +1,14 @@
 {
   "name": "torproject",
   "url": "https://check.torproject.org/api/ip",
-  "status": "error",
-  "elapsed_ms": 1439.92,
+  "status": "success",
+  "elapsed_ms": 303.74,
   "remark": "",
   "supports_ip": false,
-  "result": null,
-  "error": "Cannot connect to host check.torproject.org:443 ssl:default [Connection reset by peer]",
+  "result": {
+    "IsTor": false,
+    "IP": "172.174.109.250"
+  },
+  "error": null,
   "test_ip": "8.8.8.8"
 }
